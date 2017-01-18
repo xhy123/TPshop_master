@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="268dip"
+        android:id="@+id/guess_layout"
+        android:orientation="vertical">
+        <!-- 产品列表ITEM -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:background="@color/bg_view">
+            <!--@drawable/view_bg_clickable_selector-->
+            <ImageView
+                android:id="@+id/product_pic_imgv"
+                android:layout_width="match_parent"
+                android:layout_height="218.0dip"
+                android:src="@drawable/test_i"
+                android:background="@color/white"
+                android:scaleType="fitCenter" />
+
+            <TextView
+                android:id="@+id/product_name_txtv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxHeight="30.0dip"
+                android:layout_marginTop="2.0dip"
+                android:paddingLeft="@dimen/margin_space"
+                android:paddingRight="@dimen/margin_space"
+                android:ellipsize="end"
+                android:gravity="left"
+                android:maxEms="6"
+                android:maxLines="1"
+                style="@style/textStyle.Normal.black" />
+
+            <TextView
+                android:id="@+id/product_price_txtv"
+                android:layout_width="fill_parent"
+                android:layout_height="20.0dip"
+                android:ellipsize="end"
+                android:gravity="left"
+                android:paddingLeft="@dimen/margin_space"
+                android:paddingRight="@dimen/margin_space"
+                android:maxEms="6"
+                android:maxLines="1"
+                style="@style/textStyle.Normal.lightRed" />
+        </LinearLayout>
+
+</LinearLayout>

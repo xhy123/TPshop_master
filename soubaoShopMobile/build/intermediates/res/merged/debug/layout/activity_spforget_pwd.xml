@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.soubao.tpshop.activity.person.user.SPForgetPwdActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible"
+        android:id="@+id/layout_first">
+
+        <TextView
+            android:layout_width="wrap_content"
+            style="@style/textStyle.Medium.User"
+            android:text="@string/register_phone_number"
+            android:id="@+id/textView"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:gravity="center" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:ems="10"
+            android:id="@+id/editPhoneNum"
+            android:layout_alignBottom="@+id/textView"
+            android:layout_toRightOf="@+id/textView"
+            android:layout_toEndOf="@+id/textView"
+            style="@style/edit_text"/>
+
+        <Button
+            android:layout_width="match_parent"
+            style="@style/button_style"
+            android:text="@string/register_btn_next"
+            android:id="@+id/btn_next_1"
+            android:layout_below="@+id/textView"
+            android:layout_centerHorizontal="true"
+            android:onClick="onBtnNextOneClick"
+            android:layout_marginTop="20dp"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_second"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="match_parent"
+            style="@style/textStyle.Medium.User"
+            android:text="@string/register_sub_title"
+            android:id="@+id/txt_register_phone"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:gravity="center"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            style="@style/textStyle.Medium.User"
+            android:text="@string/register_check_code"
+            android:id="@+id/txt_code"
+            android:layout_below="@+id/txt_register_phone"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:gravity="center" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/edit_code"
+            android:ems="6"
+            android:layout_alignBottom="@+id/txt_code"
+            android:layout_toRightOf="@+id/txt_code"
+            android:layout_toEndOf="@+id/txt_code"
+            android:inputType="number"
+            style="@style/edit_text"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/register_btn_re_code"
+            android:id="@+id/btn_send_sms"
+            android:layout_alignBottom="@+id/edit_code"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:enabled="false"
+            android:onClick="onBtnReCodeClick" />
+
+        <Button
+            android:layout_width="match_parent"
+            style="@style/button_style"
+            android:text="@string/register_btn_next"
+            android:id="@+id/btn_next_2"
+            android:layout_below="@+id/edit_code"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="20dp"
+            android:onClick="onBtnNextTowClick" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_third"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="100dp"
+            style="@style/textStyle.Medium.User"
+            android:text="@string/register_password"
+            android:id="@+id/txt_pwd"
+            android:gravity="left|center" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edit_password"
+            android:inputType="textPassword"
+            android:layout_alignBottom="@+id/txt_pwd"
+            android:layout_toRightOf="@+id/txt_pwd"
+            android:maxLength="20"
+            style="@style/edit_text"
+            android:digits="@string/register_edit_digits"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            style="@style/textStyle.Medium.User"
+            android:paddingTop="5dp"
+            android:text="@string/register_confirm_password"
+            android:id="@+id/txt_confirm_pwd"
+            android:layout_below="@+id/txt_pwd"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:gravity="center" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edit_re_password"
+            android:layout_below="@+id/txt_pwd"
+            android:layout_alignParentRight="true"
+            android:maxLength="20"
+            android:inputType="textPassword"
+            android:digits="@string/register_edit_digits"
+            android:layout_alignLeft="@+id/edit_password"
+            style="@style/edit_text"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="10dp"
+            android:layout_alignBottom="@+id/txt_confirm_pwd"
+             />
+
+        <TextView
+            android:layout_width="match_parent"
+            style="@style/textStyle.Medium.User"
+            android:text="@string/register_error_info"
+            android:id="@+id/txt_error_info"
+            android:layout_below="@+id/txt_confirm_pwd"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:gravity="left|center"
+            android:visibility="invisible"
+            android:textColor="@android:color/holo_red_light" />
+
+        <Button
+            android:layout_width="match_parent"
+            style="@style/button_style"
+            android:text="@string/login_forget_pwd"
+            android:id="@+id/btn_register"
+            android:layout_below="@+id/txt_error_info"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp"
+            android:onClick="onBtnNextThreeClick" />
+
+    </RelativeLayout>
+</RelativeLayout>

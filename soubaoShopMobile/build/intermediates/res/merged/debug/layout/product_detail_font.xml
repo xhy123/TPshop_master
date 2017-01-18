@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <!-- sbp_hide_panel_title 为滑动过程中及子视图显示是是否需要隐藏标题，默认显示（目前只支持 FrameLayout） -->
+    <!-- background_layout 为首页显示在滑块底部的视图（下面的示例图中的 WebView） -->
+    <me.next.slidebottompanel.SlideBottomPanel
+        android:id="@+id/sbv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:sbp_title_height_no_display="0dp"
+        app:sbp_panel_height="380dp"
+        app:sbp_hide_panel_title="false"
+        app:sbp_background_layout="@layout/product_details">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="380dp"
+            android:background="#ffffff"
+            android:orientation="vertical">
+
+            <ListView
+                android:id="@+id/product_attr_lstv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+            <!-- 标题，如果需要完整显示标题，设置 sbp_title_height_no_display="标题的高度" -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:text="商品属性"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:background="#ffffff"/>
+
+        </FrameLayout>
+    </me.next.slidebottompanel.SlideBottomPanel>
+
+</LinearLayout>

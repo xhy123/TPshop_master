@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SlideBottomPanel"><attr format="reference" name="sbp_background_layout"/><attr format="dimension" name="sbp_title_height_no_display"/><attr format="dimension" name="sbp_panel_height"/><attr format="boolean" name="sbp_boundary"/><attr format="dimension" name="sbp_move_distance_trigger"/><attr format="integer" name="sbp_animation_duration"/><attr format="boolean" name="sbp_fade"/><attr format="boolean" name="sbp_hide_panel_title"/></declare-styleable>
+    <!-- From: file:/Users/NeXT/Projects/GitDemo/SlideBottomViewDemo/SlideBottomPanel/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- From: file:/Users/NeXT/Projects/GitDemo/SlideBottomViewDemo/SlideBottomPanel/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">SlideBottomView</string>
+    <string name="hello_world">Hello world!</string>
+</resources>

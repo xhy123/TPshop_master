@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_activity"
+    >
+
+    <ScrollView
+        android:id="@+id/confirm_scrollv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:scrollbars="none"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:layout_marginBottom="45dip">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_row"
+                android:background="@color/bg_view">
+                <TextView
+                    android:id="@+id/order_ordersn_txtv"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="@dimen/margin_space"
+                    android:gravity="center_horizontal|center_vertical|left"
+                    android:text="订单编号:20160702143407"
+                    style="@style/textStyle.Normal.black"/>
+
+                <TextView
+                    android:id="@+id/order_status_txtv"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/margin_space"
+                    android:gravity="center_horizontal|center_vertical|right"
+                    android:text="待支付"
+                    style="@style/textStyle.Normal.lightRed"/>
+            </RelativeLayout>
+            <include layout="@layout/separator_line_margin_slice"/>
+
+            <include layout="@layout/order_confirm_order_consignee_slice"
+                android:layout_width="match_parent"
+                android:layout_height="65dip"/>
+            <include layout="@layout/separator_line_margin_slice"/>
+
+            <include layout="@layout/order_confirm_order_productlist_slice"
+                android:layout_width="match_parent"
+                android:layout_height="100dip"/>
+            <View  style="@style/separator_line"/>
+
+            <com.soubao.tpshop.view.SPArrowRowView
+                android:id="@+id/order_deliver_aview"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_row"
+                android:clickable="true"
+                android:focusable="true"
+                custom:titleText="@string/order_deliver_type"
+                custom:indicatorShow="false"/>
+            <View  style="@style/separator_line"/>
+
+            <com.soubao.tpshop.view.SPArrowRowView
+                android:id="@+id/order_coupon_aview"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_row"
+                android:clickable="true"
+                android:focusable="true"
+                custom:titleText="@string/order_coupon"
+                custom:indicatorShow="false"/>
+            <View  style="@style/separator_line"/>
+
+            <com.soubao.tpshop.view.SPArrowRowView
+                android:id="@+id/order_invoce_aview"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_row"
+                android:clickable="true"
+                android:focusable="true"
+                custom:titleText="@string/order_invoice"
+                custom:indicatorShow="false"/>
+            <View  style="@style/separator_line"/>
+
+            <include layout="@layout/order_confirm_order_overview_slice"
+                android:layout_width="match_parent"
+                android:layout_height="180dip"
+                android:layout_marginBottom="45dip"/>
+         </LinearLayout>
+    </ScrollView>
+
+    <HorizontalScrollView
+        android:id="@+id/order_button_scrollv"
+        android:layout_width="match_parent"
+        android:layout_height="45dip"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="0dip"
+        android:background="@color/bg_view"
+        android:fillViewport="true">
+        <LinearLayout
+            android:id="@+id/order_button_gallery_lyaout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical|right"
+            android:layout_marginRight="@dimen/margin_space_half"
+            android:gravity="right"
+            android:orientation="horizontal" >
+        </LinearLayout>
+    </HorizontalScrollView>
+</FrameLayout>

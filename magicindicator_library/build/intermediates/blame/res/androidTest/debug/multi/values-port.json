@@ -1,0 +1,74 @@
+[
+    {
+        "outputFile": "E:\\CaiShengHuo\\personal\\TPshop-master\\magicindicator_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\values-port\\values-port.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 55,
+                    "endOffset": 106
+                },
+                "from": {
+                    "file": "E:\\CaiShengHuo\\personal\\TPshop-master\\magicindicator_library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.1.1\\res\\values-port\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 291,
+                        "endColumn": 55,
+                        "endOffset": 342
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "D:\\tpshop\\project\\TPshop-master\\magicindicator_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\values-port\\values-port.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 55,
+                    "endOffset": 106
+                },
+                "from": {
+                    "file": "D:\\tpshop\\project\\TPshop-master\\magicindicator_library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.1.1\\res\\values-port\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 291,
+                        "endColumn": 55,
+                        "endOffset": 342
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "D:\\tpshop\\third\\MagicIndicator\\MagicIndicator-master\\magicindicator\\build\\intermediates\\res\\merged\\androidTest\\debug\\values-port\\values-port.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 55,
+                    "endOffset": 106
+                },
+                "from": {
+                    "file": "D:\\tpshop\\third\\MagicIndicator\\MagicIndicator-master\\magicindicator\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.1.1\\res\\values-port\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 291,
+                        "endColumn": 55,
+                        "endOffset": 342
+                    }
+                }
+            }
+        ]
+    }
+]

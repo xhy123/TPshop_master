@@ -1,0 +1,81 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_activity"
+    android:orientation="vertical" >
+
+    <ScrollView 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:id="@+id/pay_layout"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:background="@color/bg_view"
+                    android:layout_height="@dimen/height_row">
+
+                    <TextView
+                        android:layout_width="120dip"
+                        android:layout_height="match_parent"
+                        android:layout_toRightOf="@id/order_coupon_check_imgv"
+                        android:layout_marginLeft="@dimen/margin_space"
+                        android:gravity="center_vertical|left"
+                        android:singleLine="true"
+                        android:text="@string/pay_money"
+                        style="@style/textStyle.Normal.black" />
+
+                    <TextView
+                        android:id="@+id/pay_money_txtv"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_toRightOf="@id/order_coupon_check_imgv"
+                        android:layout_below="@id/order_coupon_title_txtv"
+                        android:layout_marginRight="@dimen/margin_space"
+                        android:gravity="center_vertical|right"
+                        android:singleLine="true"
+                        android:text="¥9999"
+                        style="@style/textStyle.Normal.lightRed" />
+                </LinearLayout>
+                <include layout="@layout/separator_line_margin_slice"/>
+
+                <com.soubao.tpshop.view.SPArrowRowView
+                    android:id="@+id/pay_alipay_aview"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/height_row"
+                    android:clickable="true"
+                    android:focusable="true"
+                    custom:titleText="@string/pay_alipay"
+                    custom:arrowSrc="@drawable/pay_alipay"/>
+                <View  style="@style/separator_line"/>
+
+                <com.soubao.tpshop.view.SPArrowRowView
+                    android:id="@+id/pay_wechat_aview"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/height_row"
+                    android:clickable="true"
+                    android:focusable="true"
+                    custom:titleText="@string/pay_wechat"
+                    custom:arrowSrc="@drawable/pay_wechat"/>
+                <View  style="@style/separator_line"/>
+
+                <com.soubao.tpshop.view.SPArrowRowView
+                    android:id="@+id/pay_cod_aview"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/height_row"
+                    android:clickable="true"
+                    android:focusable="true"
+                    custom:titleText="@string/pay_cod"
+                    custom:arrowSrc="@drawable/pay_cod"/>
+                <View  style="@style/separator_line"/>
+
+            </LinearLayout>
+    </ScrollView>
+</LinearLayout>

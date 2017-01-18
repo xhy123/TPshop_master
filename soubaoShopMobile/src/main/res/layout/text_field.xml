@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_activity"
+    >
+
+    <EditText
+        android:id="@+id/value_edtv"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_text"
+        android:layout_marginLeft="@dimen/margin_space"
+        android:layout_marginRight="@dimen/margin_space"
+        android:layout_marginTop="@dimen/margin_space"
+        style="@style/textStyle.Normal.black"/>
+
+    <TextView
+        android:id="@+id/validate_txtv"
+        android:layout_below="@id/value_edtv"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_text"
+        android:layout_marginLeft="@dimen/margin_space"
+        android:layout_marginRight="@dimen/margin_space"
+        android:layout_marginTop="@dimen/margin_space"
+        style="@style/textStyle.Small.lightRed"/>
+
+    <Button
+        android:id="@+id/ok_btn"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_button"
+        android:text="@string/ok"
+        android:textColor="@color/white"
+        android:background="@drawable/button_selector"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="@dimen/margin_space"
+        android:layout_marginRight="@dimen/margin_space"
+        android:layout_marginBottom="@dimen/margin_space"
+        />
+
+</RelativeLayout>

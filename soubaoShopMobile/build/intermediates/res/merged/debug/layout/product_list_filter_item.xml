@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/filter_item_txtv"
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:text="0/0"
+        android:textColor="@color/personal_head_bg"
+        android:gravity="center_horizontal|center_vertical"
+        android:background="@drawable/product_detail_pageindex"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="@dimen/margin_space"
+        android:layout_marginBottom="@dimen/margin_space" />
+
+</LinearLayout>

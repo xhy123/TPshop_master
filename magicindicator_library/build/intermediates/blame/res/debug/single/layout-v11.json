@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "D:\\tpshop\\project\\TPshop-master\\magicindicator_library\\build\\intermediates\\res\\merged\\debug\\layout-v11\\abc_screen_content_include.xml",
+        "source": "D:\\tpshop\\project\\TPshop-master\\magicindicator_library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.1.1\\res\\layout-v11\\abc_screen_content_include.xml"
+    },
+    {
+        "merged": "D:\\tpshop\\third\\MagicIndicator\\MagicIndicator-master\\magicindicator\\build\\intermediates\\res\\merged\\debug\\layout-v11\\abc_screen_content_include.xml",
+        "source": "D:\\tpshop\\third\\MagicIndicator\\MagicIndicator-master\\magicindicator\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.1.1\\res\\layout-v11\\abc_screen_content_include.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\magicindicator_library\\build\\intermediates\\res\\merged\\debug\\layout-v11\\abc_screen_content_include.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\magicindicator_library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.1.1\\res\\layout-v11\\abc_screen_content_include.xml"
+    }
+]

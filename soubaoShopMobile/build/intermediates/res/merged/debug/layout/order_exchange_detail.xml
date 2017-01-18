@@ -1,0 +1,190 @@
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/bg_view">
+
+        <!--ScrollView
+            android:id="@+id/detail_scrollv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="none"
+            android:orientation="vertical" -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="90dip">
+
+                    <ImageView
+                        android:id="@+id/exchange_product_pic_imgv"
+                        android:layout_width="80.0dip"
+                        android:layout_height="80.0dip"
+                        android:src="@drawable/product_default"
+                        android:background="@color/white"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginLeft="@dimen/margin_space"
+                        android:layout_marginTop="@dimen/margin_space_half"
+                        android:scaleType="fitCenter" />
+
+                    <TextView
+                        android:id="@+id/exchange_product_name_txtv"
+                        android:layout_toRightOf="@id/exchange_product_pic_imgv"
+                        android:layout_width="match_parent"
+                        android:layout_height="80.0dip"
+                        android:layout_marginTop="@dimen/margin_space_half"
+                        android:layout_marginLeft="@dimen/margin_space_half"
+                        android:layout_marginRight="@dimen/margin_space"
+                        android:ellipsize="end"
+                        android:gravity="left"
+                        android:text="衣服"
+                        android:maxEms="6"
+                        android:maxLines="4"
+                        style="@style/textStyle.Normal.black" />
+                </RelativeLayout>
+                <View  style="@style/separator_line"/>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/height_row">
+                    <TextView
+                        android:id="@+id/exchange_status_title_txtv"
+                        android:layout_width="80dip"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginLeft="@dimen/margin_space"
+                        android:ellipsize="end"
+                        android:gravity="left|center_vertical"
+                        android:text="售后信息:"
+                        android:maxEms="6"
+                        android:maxLines="1"
+                        style="@style/textStyle.Normal.black" />
+
+                    <TextView
+                        android:id="@+id/exchange_status_content_txtv"
+                        android:layout_toRightOf="@id/exchange_status_title_txtv"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="@dimen/margin_space_half"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="@dimen/margin_space"
+                        android:ellipsize="end"
+                        android:gravity="left|center_vertical"
+                        android:text="已完成"
+                        android:maxEms="6"
+                        android:maxLines="1"
+                        style="@style/textStyle.Normal.lightRed" />
+                </RelativeLayout>
+                <View  style="@style/separator_line"/>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="80dip">
+                    <TextView
+                        android:id="@+id/exchange_reason_title_txtv"
+                        android:layout_width="80dip"
+                        android:layout_height="20dip"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginTop="@dimen/margin_space_half"
+                        android:layout_marginLeft="@dimen/margin_space"
+                        android:ellipsize="end"
+                        android:gravity="left|center_vertical"
+                        android:text="问题描述:"
+                        android:maxEms="6"
+                        android:maxLines="1"
+                        style="@style/textStyle.Normal.black" />
+
+                    <TextView
+                        android:id="@+id/exchange_reason_content_txtv"
+                        android:layout_toRightOf="@id/exchange_reason_title_txtv"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="@dimen/margin_space_half"
+                        android:layout_marginLeft="@dimen/margin_space_half"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="@dimen/margin_space"
+                        android:ellipsize="end"
+                        android:gravity="left"
+                        android:text="不合身"
+                        android:maxEms="6"
+                        android:maxLines="1"
+                        style="@style/textStyle.Normal.black" />
+                </RelativeLayout>
+                <View  style="@style/separator_line"/>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/height_row">
+                    <TextView
+                        android:id="@+id/exchange_remark_title_txtv"
+                        android:layout_width="80dip"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginLeft="@dimen/margin_space"
+                        android:ellipsize="end"
+                        android:gravity="left|center_vertical"
+                        android:text="问题备注:"
+                        android:maxEms="6"
+                        android:maxLines="1"
+                        style="@style/textStyle.Normal.black" />
+
+                    <TextView
+                        android:id="@+id/exchange_remark_content_txtv"
+                        android:layout_toRightOf="@id/exchange_remark_title_txtv"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginLeft="@dimen/margin_space_half"
+                        android:layout_marginRight="@dimen/margin_space"
+                        android:ellipsize="end"
+                        android:gravity="left|center_vertical"
+                        android:text="已完成"
+                        android:maxEms="6"
+                        android:maxLines="1"
+                        style="@style/textStyle.Normal.black" />
+                </RelativeLayout>
+                <View  style="@style/separator_line"/>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="110dip">
+                    <TextView
+                        android:id="@+id/exchange_pic_gallery_txtv"
+                        android:layout_width="80dip"
+                        android:layout_height="20dip"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginTop="@dimen/margin_space_half"
+                        android:layout_marginLeft="@dimen/margin_space"
+                        android:ellipsize="end"
+                        android:gravity="left"
+                        android:text="问题图片:"
+                        android:maxEms="6"
+                        android:maxLines="1"
+                        style="@style/textStyle.Normal.black" />
+
+                    <HorizontalScrollView
+                        android:id="@+id/exchange_product_scrollv"
+                        android:layout_below="@id/exchange_pic_gallery_txtv"
+                        android:layout_marginLeft="@dimen/margin_space"
+                        android:layout_marginRight="@dimen/margin_space"
+                        android:layout_marginTop="@dimen/margin_space_half"
+                        android:layout_width="match_parent"
+                        android:layout_gravity="center_vertical"
+                        android:layout_height="80dip">
+                        <LinearLayout
+                            android:id="@+id/exchange_gallery_lyaout"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_vertical"
+                            android:orientation="horizontal" >
+                        </LinearLayout>
+                    </HorizontalScrollView>
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        <!--/ScrollView-->
+</LinearLayout>
+

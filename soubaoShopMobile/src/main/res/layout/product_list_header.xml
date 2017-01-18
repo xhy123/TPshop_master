@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="50dip"
+    android:orientation="vertical"
+    android:background="@color/bg_view">
+
+    <View android:id="@+id/line_view"
+        android:layout_width="fill_parent"
+        android:layout_height="2.0px"
+        android:layout_alignParentBottom="true"
+        android:background="@color/separator_line"/>
+
+    <RelativeLayout
+        android:id="@+id/search_layout"
+        android:layout_width="match_parent"
+        android:layout_height="49.0dip"
+        android:layout_alignParentTop="true"
+        android:gravity="center_vertical"
+        android:paddingBottom="6.0dip"
+        android:paddingTop="6.0dip"
+        android:layout_above="@id/line_view">
+
+        <ImageView
+            android:id="@+id/title_back_imgv"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="15.0dip"
+            android:paddingRight="15.0dip"
+            android:src="@drawable/common_title_back_selector" />
+
+        <TextView
+            android:id="@+id/tv_seacch_keyword_book_text_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/title_back_imgv"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:singleLine="true"
+            android:textColor="#ff252525"
+            android:textSize="18.0sp"
+            android:visibility="gone" />
+
+        <include
+            android:id="@+id/tv_seacch_relativeLayout_activity_title"
+            android:layout_width="fill_parent"
+            android:layout_height="32.0dip"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10.0dip"
+            android:layout_toRightOf="@+id/title_back_imgv"
+            layout="@layout/include_search_box" />
+    </RelativeLayout>
+
+
+</RelativeLayout>

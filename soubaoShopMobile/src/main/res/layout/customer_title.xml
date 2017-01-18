@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@color/bg_activity"
+    android:orientation="vertical" >
+    <RelativeLayout
+		android:layout_width="match_parent"
+		android:layout_height="fill_parent">
+    
+	<TextView 
+	    android:id="@+id/tv_tittle"
+	    android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"
+    	android:gravity="center"
+    	android:singleLine="true"
+    	android:paddingLeft="64dp"
+    	android:paddingRight="64dp"
+    	android:layout_alignBottom="@+id/btn_back"
+    	android:layout_alignTop="@+id/btn_back"
+    	android:textSize="16sp"
+    	android:textColor="@color/white"
+    	/>
+		<Button
+			android:id="@+id/btn_back"
+			android:layout_centerVertical="true"
+			android:layout_gravity="left|center_vertical"
+			android:layout_marginLeft="@dimen/margin_space"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:background="@drawable/title_back_selector"/>
+
+	<Button 
+	    android:id="@+id/btn_right"
+	    android:layout_width="80dip"
+    	android:layout_height="30dip"
+		android:text="确定"
+    	android:layout_alignParentRight="true"
+		android:layout_marginRight="@dimen/margin_space"
+		style="@style/textStyle.Normal.white"
+		android:layout_centerVertical="true"
+		android:background="@drawable/button_selector"
+    	android:textColor="@color/white"
+    	android:paddingRight="8dp"/>
+	</RelativeLayout>
+	<View  style="@style/separator_line"/>
+</LinearLayout>

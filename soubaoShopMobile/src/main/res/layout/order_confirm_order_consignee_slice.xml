@@ -1,0 +1,53 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+	android:id="@+id/order_confirm_consignee_layout"
+    android:layout_height="65dip"
+    android:orientation="horizontal"
+	android:clickable="true"
+    android:background="@color/bg_view">
+
+	<ImageView
+		android:layout_marginLeft="@dimen/margin_space"
+		android:layout_marginBottom="@dimen/margin_space"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:src="@drawable/icon_location"
+		android:layout_gravity="bottom"/>
+
+	<RelativeLayout
+		android:layout_width="wrap_content"
+		android:layout_height="match_parent"
+		android:layout_marginLeft="30dip"
+		android:layout_marginRight="33dip">
+
+		<TextView
+			android:id="@+id/order_consignee_txtv"
+			android:layout_width="match_parent"
+			android:layout_height="30dip"
+			android:layout_marginTop="@dimen/margin_space"
+
+			android:text="收货人 13800138006"
+			android:textStyle="bold"
+			style="@style/textStyle.Medium.black"/>
+
+		<TextView
+			android:id="@+id/order_address_txtv"
+			android:layout_width="match_parent"
+			android:layout_height="15dip"
+			android:layout_alignParentBottom="true"
+			android:layout_marginBottom="@dimen/margin_space"
+
+			android:text="福田上梅林"
+			style="@style/textStyle.Normal.black"/>
+	</RelativeLayout>
+
+	<ImageView
+		android:id="@+id/order_address_arrow_imgv"
+		android:layout_gravity="right|center_vertical"
+		android:layout_marginRight="@dimen/margin_space"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:src="@drawable/personal_arrow_right"/>
+		
+</FrameLayout>

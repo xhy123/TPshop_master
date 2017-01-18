@@ -1,0 +1,112 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dip"
+    android:gravity="center_horizontal|center_vertical"
+    android:orientation="horizontal"
+    android:background="@color/bg_view">
+    
+    
+        <LinearLayout 
+            android:id="@+id/home_menu_first_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:clickable="true"
+            android:background="@drawable/view_bg_clickable_selector"
+            android:orientation="vertical"
+            android:gravity="center">
+            
+             <ImageView 
+                android:id="@+id/home_menu_first_imgv"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:src="@drawable/icon_home_menu_first"/>
+             
+             <TextView
+		        android:id="@+id/home_menu_first_txtv"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/home_menu_first"
+		        android:layout_marginTop="@dimen/home_menu_text_top"
+		        android:textColor="@android:color/black"
+		        android:textSize="14sp"/>
+        </LinearLayout>
+        
+         <LinearLayout 
+            android:id="@+id/home_menu_sec_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:clickable="true"
+            android:background="@drawable/view_bg_clickable_selector"
+            android:orientation="vertical"
+            android:gravity="center">
+            
+             <ImageView 
+                android:id="@+id/home_menu_sec_imgv"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:src="@drawable/icon_home_menu_sec"/>
+             
+             <TextView
+		        android:id="@+id/home_menu_sec_txtv"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/home_menu_sec"
+		        android:layout_marginTop="@dimen/home_menu_text_top"
+		        android:textColor="@android:color/black"
+		        android:textSize="14sp"/>
+        </LinearLayout>
+    
+         <LinearLayout 
+            android:id="@+id/home_menu_third_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:clickable="true"
+            android:background="@drawable/view_bg_clickable_selector"
+            android:orientation="vertical"
+            android:gravity="center">
+            
+             <ImageView 
+                android:id="@+id/home_menu_third_imgv"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:src="@drawable/icon_home_menu_third"/>
+             
+             <TextView
+		        android:id="@+id/home_menu_third_txtv"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/home_menu_third"
+		        android:layout_marginTop="@dimen/home_menu_text_top"
+		        android:textColor="@android:color/black"
+		        android:textSize="14sp"/>
+        </LinearLayout>
+        
+         <LinearLayout 
+            android:id="@+id/home_menu_fourth_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:clickable="true"
+            android:background="@drawable/view_bg_clickable_selector"
+            android:orientation="vertical"
+            android:gravity="center">
+            
+             <ImageView 
+                android:id="@+id/home_menu_fourth_imgv"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:src="@drawable/icon_home_menu_fourth"/>
+             
+             <TextView
+		        android:id="@+id/home_menu_fourth_txtv"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/home_menu_fourth"
+		        android:layout_marginTop="@dimen/home_menu_text_top"
+		        android:textColor="@android:color/black"
+		        android:textSize="14sp"/>
+        </LinearLayout>
+</LinearLayout>

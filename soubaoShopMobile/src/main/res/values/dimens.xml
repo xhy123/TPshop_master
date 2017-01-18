@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 商城主界面, 底部bottom tab 高度 -->
+    <dimen name="height_tab_bottom_item">50dip</dimen>
+    <dimen name="padding_tab_bottom_drawable">1.0dip</dimen>
+    <dimen name="font_size_tab_item">9.0sp</dimen>
+    
+    <!-- 公共属性 -->
+    <dimen name="person_head_relayout_padding">5dip</dimen>
+    <dimen name="height_row">45dip</dimen>
+    <dimen name="height_button">40dip</dimen>
+    <dimen name="height_text">40dip</dimen>
+    <dimen name="margin_space">10dip</dimen>
+    <dimen name="margin_space_big">15dip</dimen>
+    <dimen name="margin_space_half">5dip</dimen>
+    <dimen name="arrow_image_size">25dip</dimen>
+
+    <dimen name="home_menu_text_top">5dp</dimen>
+
+    <dimen name="font_size_small">10sp</dimen>
+    <dimen name="font_size_normal">14sp</dimen>
+    <dimen name="height_pointer">40.0dip</dimen>
+    <dimen name="title_bar_height">50.0dip</dimen>
+
+    <dimen name="tag_corner_radius">5.0dip</dimen>
+    <dimen name="tag_horizontal_spacing">5.0dip</dimen>
+    <dimen name="tag_vertical_spacing">5.0dip</dimen>
+    <dimen name="tag_common_margin">8.0dip</dimen>
+    <dimen name="tag_listview_padding_top">5.0dip</dimen>
+    <dimen name="tag_height">12.0dip</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="comment_normal_height">110dip</dimen>
+    <dimen name="comment_big_height">200dip</dimen>
+    <dimen name="product_item_height">278dip</dimen>
+    <dimen name="head_corner_35">35dip</dimen>
+
+    <dimen name="home_banner_height">140dip</dimen>
+    <dimen name="dp_300">300dip</dimen>
+
+    <dimen name="dp_5">4dp</dimen>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="dp_066">0.66dp</dimen>
+    <dimen name="dp_4">4dp</dimen>
+    <dimen name="dp_10">10dp</dimen>
+    <dimen name="dp_14">14dp</dimen>
+    <dimen name="dp_22">22dp</dimen>
+    <dimen name="dp_36">36dp</dimen>
+    <dimen name="dp_40">40dp</dimen>
+    <dimen name="dp_60">60dp</dimen>
+    <dimen name="dp_72">72dp</dimen>
+
+    <dimen name="sp_12">12sp</dimen>
+    <dimen name="sp_14">14sp</dimen>
+    <dimen name="sp_16">16sp</dimen>
+</resources>

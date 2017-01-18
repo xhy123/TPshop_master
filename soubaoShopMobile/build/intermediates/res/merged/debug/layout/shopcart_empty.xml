@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@color/bg_view"
+    android:padding="10.0dip" >
+
+
+    <ImageView
+        android:id="@+id/empty_imgv"
+        android:layout_width="100dip"
+        android:layout_height="80dip"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dip"
+        android:scaleType="fitCenter"
+        android:src="@drawable/icon_shopcart_empty" />
+
+    <TextView
+        android:layout_below="@id/empty_imgv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dip"
+        android:gravity="center_horizontal"
+        android:singleLine="true"
+        android:text="没有任何数据"
+        style="@style/textStyle.Normal.black" />
+    
+</RelativeLayout>

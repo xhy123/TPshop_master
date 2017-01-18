@@ -1,0 +1,124 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:cube_ptr="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_activity"
+    android:orientation="vertical" >
+
+    <include layout="@layout/titlebar"/>
+
+    <com.chanven.lib.cptr.PtrClassicFrameLayout
+        android:id="@+id/shopcart_pcf"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#f0f0f0"
+        cube_ptr:ptr_resistance="1.7"
+        android:layout_marginTop="50dip"
+        cube_ptr:ptr_ratio_of_header_height_to_refresh="1.2"
+        cube_ptr:ptr_duration_to_close="200"
+        cube_ptr:ptr_duration_to_close_header="1000"
+        cube_ptr:ptr_keep_header_when_refresh="true"
+        android:layout_marginBottom="45dip"
+        cube_ptr:ptr_pull_to_fresh="false">
+
+        <ListView
+            android:id="@+id/shopcart_listv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@color/separator_line"
+            android:dividerHeight="1px"
+            android:fadingEdge="none"
+            android:fastScrollEnabled="false"
+            android:footerDividersEnabled="false"
+            android:headerDividersEnabled="false"
+            android:scrollbars="none"
+            android:smoothScrollbar="true" />
+
+    </com.chanven.lib.cptr.PtrClassicFrameLayout>
+    <RelativeLayout
+        android:id="@+id/empty_lstv"
+        android:layout_height="match_parent"
+        android:layout_width="fill_parent"
+        android:layout_marginTop="50dip"
+        android:background="@color/bg_view"
+        android:visibility="gone"
+        android:padding="10.0dip" >
+
+        <ImageView
+            android:id="@+id/empty_imgv"
+            android:layout_width="100dip"
+            android:layout_height="80dip"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dip"
+            android:scaleType="fitCenter"
+            android:src="@drawable/icon_shopcart_empty" />
+
+        <TextView
+            android:layout_below="@id/empty_imgv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dip"
+            android:gravity="center_horizontal"
+            android:singleLine="true"
+            android:text="没有任何数据"
+            style="@style/textStyle.Normal.black" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dip"
+        android:layout_gravity="bottom"
+        android:background="@color/black">
+
+        <Button
+            android:id="@+id/checkall_btn"
+            android:layout_width="20dip"
+            android:layout_height="20dip"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/margin_space"
+            android:background="@drawable/icon_checkno"
+            android:layout_alignParentLeft="true"
+            />
+
+        <LinearLayout
+            android:layout_marginLeft="@dimen/margin_space"
+            android:layout_toRightOf="@id/checkall_btn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/totalfee_txtv"
+                android:layout_width="match_parent"
+                android:layout_height="0.0dip"
+                android:layout_weight="2.5"
+                android:gravity="left|center_vertical"
+                android:text="合计: ¥999.0"
+                style="@style/textStyle.Medium.white"/>
+
+            <TextView
+                android:id="@+id/cutfee_txtv"
+                android:layout_width="match_parent"
+                android:layout_height="0.0dip"
+                android:layout_weight="1.5"
+                android:gravity="left|top"
+                android:text="节省: ¥999.0"
+                android:textSize="@dimen/textSizeSmall"
+                style="@style/textStyle.Small.white"/>
+        </LinearLayout>
+
+
+
+        <Button
+            android:id="@+id/buy_btn"
+            android:layout_width="120dip"
+            android:layout_height="match_parent"
+            android:text="@string/product_buy_now"
+            android:textColor="@color/white"
+            android:background="@drawable/button_selector"
+            android:layout_alignParentRight="true"
+            />
+    </RelativeLayout>
+
+</FrameLayout>

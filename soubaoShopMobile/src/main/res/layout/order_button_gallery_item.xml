@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="80dp"
+    android:layout_height="45dp"
+    android:layout_marginRight="5dp"
+    android:gravity="center_vertical">
+
+    <Button
+        android:id="@+id/id_index_gallery_item_button"
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        style="@style/textStyle.Small.black"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"/>
+
+</RelativeLayout>

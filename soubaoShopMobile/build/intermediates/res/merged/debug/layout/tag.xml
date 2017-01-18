@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.soubao.tpshop.view.tagview.TagView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="120dip"
+    android:layout_height="35dip"
+    android:drawablePadding="5.0dip"
+    android:minHeight="25.0dip"
+    android:paddingBottom="4.5dip"
+    android:paddingLeft="20.0dip"
+    android:paddingRight="20.0dip"
+    android:paddingTop="4.5dip"
+    android:textSize="@dimen/font_size_small" />

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/customer_title"
+        android:id="@+id/ll_title"/>
+
+    <LinearLayout
+        android:id="@+id/rg"
+        android:layout_below="@+id/ll_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/rb_province"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:checked="true"
+            android:gravity="center"
+            android:paddingBottom="8dp"
+            android:paddingTop="8dp"
+            android:singleLine="true"
+            android:text="省" />
+
+        <TextView
+            android:id="@+id/rb_city"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingBottom="8dp"
+            android:paddingTop="8dp"
+            android:singleLine="true"
+            android:text="市" />
+
+        <TextView
+            android:id="@+id/rb_district"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingBottom="8dp"
+            android:paddingTop="8dp"
+            android:singleLine="true"
+            android:text="区/县" />
+
+        <TextView
+            android:id="@+id/rb_town"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingBottom="8dp"
+            android:paddingTop="8dp"
+            android:singleLine="true"
+            android:text="镇/街道" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lv_city"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <HorizontalScrollView 
+        android:id="@+id/scrollview"
+        android:layout_width="wrap_content"
+        android:visibility="gone"
+        android:layout_height="40sp"
+        >
+        <LinearLayout
+            android:id="@+id/ll_add"
+        	android:layout_width="fill_parent"
+        	android:layout_height="match_parent"
+        	android:orientation="horizontal">
+        </LinearLayout>
+    </HorizontalScrollView>
+     
+</LinearLayout>

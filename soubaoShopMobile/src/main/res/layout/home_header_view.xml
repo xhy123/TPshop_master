@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="630dip"
+    android:orientation="vertical"
+    android:background="@color/bg_activity">
+    
+    <!-- 广告轮播banner -->  <!-- 四个菜单按钮 -->
+
+    <include layout="@layout/home_banner_slice"/>
+    <include layout="@layout/home_menu_navigation_slice2"/>
+
+    <!-- 广告专题 -->
+    <!--<include layout="@layout/separator_line_margin_slice"/>-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="340dip"
+        android:orientation="vertical"
+        android:background="@color/bg_activity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="220dip"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/up_left_imgv"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="1.0"
+                android:scaleType="fitXY"
+                android:src="@drawable/up_left"/>
+            <View style="@style/separator_line_vertical"/>
+            <LinearLayout
+                android:layout_weight="1.0"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/up_right_top_imgv"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dip"
+                    android:layout_weight="1.0"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/up_right_top"/>
+                <View style="@style/separator_line"/>
+                <ImageView
+                    android:id="@+id/up_right_bottom_imgv"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dip"
+                    android:layout_weight="1.0"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/up_right_bottom"/>
+            </LinearLayout>
+        </LinearLayout>
+        <View style="@style/separator_line"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dip"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/bottom_left_imgv"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="1.0"
+                android:scaleType="fitXY"
+                android:src="@drawable/bottom_left"/>
+            <View style="@style/separator_line_vertical"/>
+            <ImageView
+                android:id="@+id/bottom_right_imgv"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="1.0"
+                android:scaleType="fitXY"
+                android:src="@drawable/bottom_right"/>
+        </LinearLayout>
+    </LinearLayout>
+    <include layout="@layout/separator_line_margin_slice"/>
+</LinearLayout>

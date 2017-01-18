@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:custom="http://schemas.android.com/apk/res-auto"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+
+	<ScrollView
+		android:id="@+id/detail_scrollv"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:scrollbars="none"
+		android:orientation="vertical" >
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:background="@color/bg_activity"
+			android:orientation="vertical">
+
+			<!-- 产品图片 -->
+			<RelativeLayout
+				android:layout_width="match_parent"
+				android:layout_height="300dip"
+				android:background="@color/bg_view">
+				<com.soubao.tpshop.view.SPPageView
+					android:id="@+id/banner_slayout"
+					android:layout_marginLeft="@dimen/margin_space"
+					android:layout_width="match_parent"
+					android:layout_gravity="center_vertical"
+					android:scrollbars="none"
+					android:layout_height="300dip">
+					<LinearLayout
+						android:id="@+id/banner_lyaout"
+						android:layout_width="match_parent"
+						android:layout_height="match_parent"
+						android:layout_gravity="center_vertical"
+						android:orientation="horizontal" >
+					</LinearLayout>
+				</com.soubao.tpshop.view.SPPageView>
+
+				<TextView
+					android:id="@+id/pageindex_txtv"
+					android:layout_width="50dip"
+					android:layout_height="50dip"
+					android:text="0/0"
+					android:textColor="@color/white"
+					android:gravity="center_horizontal|center_vertical"
+					android:background="@drawable/product_detail_pageindex"
+					android:layout_alignParentRight="true"
+					android:layout_alignParentBottom="true"
+					android:layout_marginRight="@dimen/margin_space"
+					android:layout_marginBottom="@dimen/margin_space" />
+			</RelativeLayout>
+
+			<View style="@style/separator_line"/>
+
+			<!-- 产品名称 -->
+			<TextView
+				android:id="@+id/details_name_txtv"
+				android:layout_marginLeft="@dimen/margin_space"
+				android:layout_width="wrap_content"
+				android:text="荣耀 畅玩46"
+				android:gravity="left|center_vertical"
+				android:maxLines="2"
+				android:textStyle="bold"
+				android:layout_height="@dimen/height_text"
+				style="@style/textStyle.Normal.black"/>
+
+			<!-- 关键词 -->
+			<TextView
+				android:id="@+id/details_keywords_txtv"
+				android:layout_marginLeft="@dimen/margin_space"
+				android:layout_width="wrap_content"
+				android:text="LG 3g 876 支持 双模 2008年04月 灰色 GSM,850,900,1800,1900"
+				android:gravity="left|center_vertical"
+				android:maxLines="2"
+				android:layout_height="@dimen/height_text"
+				style="@style/textStyle.Normal.black"/>
+
+
+			<RelativeLayout
+				android:layout_width="match_parent"
+				android:layout_height="60dip"
+				android:background="@color/bg_view">
+
+				<!-- 现价 -->
+				<TextView
+					android:id="@+id/details_now_price_txtv"
+					android:layout_marginLeft="@dimen/margin_space"
+					android:layout_width="wrap_content"
+					android:layout_centerVertical="true"
+					android:gravity="left|center_vertical"
+					style="@style/textStyle.Big.lightRed"
+					android:text="现价: ￥90.00"
+					android:layout_height="@dimen/height_text"/>
+
+				<!-- 原价 -->
+				<TextView
+					android:id="@+id/details_orignal_price_txtv"
+					android:layout_toRightOf="@id/details_now_price_txtv"
+					android:layout_marginLeft="@dimen/margin_space"
+					android:layout_centerVertical="true"
+					android:layout_width="wrap_content"
+					android:gravity="left|center_vertical"
+					android:text="原价: ￥100.00"
+					android:layout_height="@dimen/height_text"
+					style="@style/textStyle.Normal.subTitle"/>
+
+
+			</RelativeLayout>
+
+			<View style="@style/separator_line"/>
+
+			<!-- 产品规格-->
+			<com.soubao.tpshop.view.SPArrowRowView
+				android:id="@+id/product_spec_aview"
+				android:layout_width="match_parent"
+				android:layout_height="@dimen/height_row"
+				android:clickable="true"
+				android:focusable="true"
+				custom:titleText="@string/product_details_spec" />
+			<View style="@style/separator_line"/>
+
+			<!-- 基本属性 -->
+			<com.soubao.tpshop.view.SPArrowRowView
+				android:id="@+id/product_attr_aview"
+				android:layout_width="match_parent"
+				android:layout_height="@dimen/height_row"
+				android:clickable="true"
+				android:focusable="true"
+				custom:titleText="@string/product_details_attr" />
+			<View style="@style/separator_line"/>
+
+			<!-- 商品详情 -->
+			<com.soubao.tpshop.view.SPArrowRowView
+				android:id="@+id/product_detail_aview"
+				android:layout_width="match_parent"
+				android:layout_height="@dimen/height_row"
+				android:clickable="true"
+				android:focusable="true"
+				custom:titleText="@string/product_details_detail" />
+			<View style="@style/separator_line"/>
+
+			<!-- 商品评论 -->
+			<com.soubao.tpshop.view.SPArrowRowView
+				android:id="@+id/product_comment_aview"
+				android:layout_width="match_parent"
+				android:layout_height="@dimen/height_row"
+				android:clickable="true"
+				android:focusable="true"
+				custom:titleText="@string/product_details_comment" />
+			<View style="@style/separator_line"/>
+
+			<TextView
+				android:layout_width="match_parent"
+				android:layout_height="50dip" />
+			<View style="@style/separator_line"/>
+
+		</LinearLayout>
+	</ScrollView>
+
+	<RelativeLayout
+		android:layout_width="match_parent"
+		android:layout_height="50dip"
+		android:layout_weight="1.0"
+		android:background="@color/black"
+		android:layout_alignParentBottom="true">
+
+		<LinearLayout
+			android:id="@+id/like_lyaout"
+			android:layout_alignParentLeft="true"
+			android:layout_width="80dip"
+			android:layout_height="match_parent"
+			android:orientation="vertical"
+			android:clickable="true"
+			android:focusable="true"
+			android:gravity="center_horizontal|center_vertical">
+
+			<ImageView
+				android:id="@+id/product_like_imgv"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:src="@drawable/product_unlike"/>
+
+			<TextView
+				android:id="@+id/product_like_txtv"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:gravity="center_horizontal"
+				android:text="@string/product_details_unlike"
+				android:textSize="@dimen/font_size_small"/>
+		</LinearLayout>
+
+		<RelativeLayout
+			android:id="@+id/product_cart_rlayout"
+			android:layout_centerHorizontal="true"
+			android:layout_width="80dip"
+			android:layout_height="match_parent"
+			android:orientation="vertical"
+			android:clickable="true"
+			android:focusable="true"
+			android:gravity="center_horizontal|center_vertical">
+
+			<ImageView
+				android:id="@+id/product_cart_imgv"
+				android:layout_width="22dip"
+				android:layout_height="22dip"
+				android:layout_centerHorizontal="true"
+				android:src="@drawable/product_cart"/>
+
+			<TextView
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:gravity="center_horizontal"
+				android:text="@string/tab_item_shopcart"
+				android:textSize="@dimen/font_size_small"
+				android:layout_below="@id/product_cart_imgv"/>
+
+			<TextView
+				android:id="@+id/productcart_count"
+				android:layout_width="20dip"
+				android:layout_height="20dip"
+				android:text="@string/digate_1"
+				android:textSize="@dimen/font_size_small"
+				android:visibility="gone"
+				android:layout_alignParentTop="true"
+				android:gravity="center_horizontal|top"
+				android:textColor="@color/white"
+				android:background="@drawable/product_cart_count_bg"
+				android:layout_toRightOf="@+id/product_cart_imgv"
+				android:layout_below="@id/product_cart_imgv"/>
+		</RelativeLayout>
+		<Button
+			android:id="@+id/product_cart_btn"
+			android:layout_width="120dip"
+			android:layout_height="match_parent"
+			android:text="@string/product_add_cart"
+			android:textColor="@color/white"
+			android:background="@drawable/button_selector"
+			android:layout_alignParentRight="true"
+			/>
+	</RelativeLayout>
+</RelativeLayout>
+

@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:custom="http://schemas.android.com/apk/res-auto"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+
+	<ScrollView
+		android:id="@+id/comment_scrollv"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:scrollbars="none"
+		android:orientation="vertical" >
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:orientation="vertical"
+			android:background="@color/bg_view">
+
+			<!-- 商品信息 -->
+			<RelativeLayout
+				android:layout_width="match_parent"
+				android:layout_height="70dip"
+				android:orientation="vertical">
+
+				<ImageView
+					android:id="@+id/product_pic_imgv"
+					android:layout_width="60.0dip"
+					android:layout_height="60.0dip"
+					android:src="@drawable/product_default"
+					android:background="@color/white"
+					android:layout_alignParentLeft="true"
+					android:layout_marginLeft="@dimen/margin_space"
+					android:layout_marginTop="5dip"
+					android:scaleType="fitCenter" />
+
+				<TextView
+					android:id="@+id/product_name_txtv"
+					android:layout_toRightOf="@id/product_pic_imgv"
+					android:layout_width="match_parent"
+					android:layout_height="40.0dip"
+					android:layout_marginTop="5dip"
+					android:layout_marginLeft="@dimen/margin_space_half"
+					android:layout_marginRight="@dimen/margin_space"
+					android:ellipsize="end"
+					android:gravity="left"
+					android:text="针织衫"
+					android:maxEms="6"
+					android:maxLines="2"
+					style="@style/textStyle.Normal.black" />
+
+				<TextView
+					android:id="@+id/product_spec_txtv"
+					android:layout_width="match_parent"
+					android:layout_height="20.0dip"
+					android:layout_below="@id/product_name_txtv"
+					android:layout_toRightOf="@id/product_pic_imgv"
+					android:ellipsize="end"
+					android:gravity="left"
+					android:layout_marginLeft="@dimen/margin_space_half"
+					android:maxEms="6"
+					android:maxLines="1"
+					android:text="产品规格"
+					style="@style/textStyle.Normal.black" />
+			</RelativeLayout>
+			<View style="@style/separator_line"/>
+
+			<!-- 星星 -->
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="25dip"
+				android:orientation="horizontal">
+				<TextView
+					android:layout_width="80dip"
+					android:layout_height="match_parent"
+					android:gravity="left|center_vertical"
+					android:layout_marginLeft="@dimen/margin_space"
+					android:maxLines="1"
+					android:text="描述描述"
+					style="@style/textStyle.Normal.black" />
+				<com.soubao.tpshop.view.SPStarView
+					android:id="@+id/comment_descript_starv"
+					android:layout_width="match_parent"
+					android:layout_height="25dip"
+					android:orientation="horizontal"
+					android:background="@color/green">
+				</com.soubao.tpshop.view.SPStarView>
+			</LinearLayout>
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="25dip"
+				android:orientation="horizontal">
+				<TextView
+					android:layout_width="80dip"
+					android:layout_height="match_parent"
+					android:gravity="left|center_vertical"
+					android:layout_marginLeft="@dimen/margin_space"
+					android:maxLines="1"
+					android:text="卖家服务"
+					style="@style/textStyle.Normal.black" />
+				<com.soubao.tpshop.view.SPStarView
+					android:id="@+id/comment_service_starv"
+					android:layout_width="match_parent"
+					android:layout_height="25dip"
+					android:orientation="horizontal"
+					android:background="@color/green">
+				</com.soubao.tpshop.view.SPStarView>
+			</LinearLayout>
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="25dip"
+				android:orientation="horizontal">
+				<TextView
+					android:layout_width="80dip"
+					android:layout_height="match_parent"
+					android:gravity="left|center_vertical"
+					android:layout_marginLeft="@dimen/margin_space"
+					android:maxLines="1"
+					android:text="物流服务"
+					style="@style/textStyle.Normal.black" />
+				<com.soubao.tpshop.view.SPStarView
+					android:id="@+id/comment_express_starv"
+					android:layout_width="match_parent"
+					android:layout_height="25dip"
+					android:orientation="horizontal"
+					android:background="@color/green">
+				</com.soubao.tpshop.view.SPStarView>
+			</LinearLayout>
+			<include layout="@layout/separator_line_margin_slice"/>
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="100dip"
+				android:layout_marginLeft="@dimen/margin_space_half"
+				android:layout_marginRight="@dimen/margin_space_half"
+				android:orientation="horizontal">
+
+				<com.soubao.tpshop.view.SPPictureSelectView
+					android:id="@+id/comment_picture1_psv"
+					android:layout_height="match_parent"
+					android:layout_width="0dip"
+					android:layout_margin="1dip"
+					android:layout_weight="1.0" />
+
+				<com.soubao.tpshop.view.SPPictureSelectView
+					android:id="@+id/comment_picture2_psv"
+					android:layout_height="match_parent"
+					android:layout_width="0dip"
+					android:layout_margin="1dip"
+					android:layout_weight="1.0" />
+
+				<com.soubao.tpshop.view.SPPictureSelectView
+					android:id="@+id/comment_picture3_psv"
+					android:layout_height="match_parent"
+					android:layout_width="0dip"
+					android:layout_margin="1dip"
+					android:layout_weight="1.0" />
+
+				<com.soubao.tpshop.view.SPPictureSelectView
+					android:id="@+id/comment_picture4_psv"
+					android:layout_height="match_parent"
+					android:layout_width="0dip"
+					android:layout_margin="1dip"
+					android:layout_weight="1.0" />
+
+				<com.soubao.tpshop.view.SPPictureSelectView
+					android:id="@+id/comment_picture5_psv"
+					android:layout_height="match_parent"
+					android:layout_width="0dip"
+					android:layout_margin="1dip"
+					android:layout_weight="1.0" />
+			</LinearLayout>
+
+			<include layout="@layout/separator_line_margin_slice"/>
+			<EditText
+				android:id="@+id/comment_content_edtv"
+				android:layout_width="match_parent"
+				android:layout_height="120dip"
+				android:layout_centerVertical="true"
+				android:background="@color/transparent"
+				android:completionThreshold="1"
+				android:focusable="true"
+				android:gravity="top"
+				android:hint="@string/hint_comment"
+				android:inputType="text"
+				android:layout_marginLeft="@dimen/margin_space"
+				android:layout_marginRight="@dimen/margin_space"
+				android:textColorHint="@color/search_title_hint_text_color"
+				style="@style/textStyle.Normal.black"/>
+			<TextView
+				android:id="@+id/limit_txtv"
+				android:layout_width="match_parent"
+				android:layout_height="20dip"
+				android:gravity="right|center_vertical"
+				android:layout_marginRight="@dimen/margin_space"
+				android:maxLines="1"
+				android:text="限120字"
+				style="@style/textStyle.Normal.black" />
+
+			<Button
+				android:id="@+id/submit_btn"
+				android:layout_width="match_parent"
+				android:text="@string/submit_comment"
+				android:layout_marginTop="50dp"
+				android:layout_marginLeft="20dip"
+				android:layout_marginRight="20dip"
+				android:layout_alignParentLeft="true"
+				android:layout_alignParentStart="true"
+				style="@style/button_style"/>
+		</LinearLayout>
+	</ScrollView>
+
+
+</RelativeLayout>
+

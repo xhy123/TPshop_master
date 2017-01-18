@@ -1,0 +1,638 @@
+[
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\pager_navigator_layout.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\exploded-aar\\TPshop-master\\magicindicator_library\\unspecified\\res\\layout\\pager_navigator_layout.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\loading_dialog.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\layout\\loading_dialog.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\consignee_select_citiy.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\layout\\consignee_select_citiy.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\person_coupon_list_item.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\layout\\person_coupon_list_item.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\layout\\main.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\activity_splogin.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\layout\\activity_splogin.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\consignee_address_edit.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\layout\\consignee_address_edit.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\pay_completed.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\layout\\pay_completed.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\order_confirm_order_overview_slice.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\layout\\order_confirm_order_overview_slice.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\consignee_select_citiy_item.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\layout\\consignee_select_citiy_item.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\layout\\abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\layout\\notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\layout\\notification_template_big_media.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\layout\\select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\shopcart_list_item.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\layout\\shopcart_list_item.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\layout\\notification_template_lines.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\home_list_grid_item.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\layout\\home_list_grid_item.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\layout\\abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\activity_title.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\layout\\activity_title.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_spproduct_list_filter_item.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\layout\\fragment_spproduct_list_filter_item.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\product_details_inner.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\layout\\product_details_inner.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\activity_spforget_pwd.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\layout\\activity_spforget_pwd.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\pull_to_refresh_header_vertical.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\exploded-aar\\TPshop-master\\androidPullToRefresh_library\\unspecified\\res\\layout\\pull_to_refresh_header_vertical.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\activity_spuser_details.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\layout\\activity_spuser_details.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\layout\\notification_template_media.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\tab_item_fragment_main.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\layout\\tab_item_fragment_main.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\activity_capture.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\layout\\activity_capture.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\person_product_comment.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\layout\\person_product_comment.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\layout\\abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\order_details.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\layout\\order_details.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\order_exchange_list.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\layout\\order_exchange_list.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\person_order_category_slice.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\layout\\person_order_category_slice.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\order_choose_logistic.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\layout\\order_choose_logistic.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\layout\\abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\layout\\notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\pager_navigator_layout_no_scroll.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\exploded-aar\\TPshop-master\\magicindicator_library\\unspecified\\res\\layout\\pager_navigator_layout_no_scroll.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\layout\\abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\product_list_header.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\layout\\product_list_header.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\test.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\layout\\test.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\product_list.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\layout\\product_list.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\product_details_comment_list.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\layout\\product_details_comment_list.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\progress_dialog.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\exploded-aar\\com.github.navasmdc\\MaterialDesign\\1.5\\res\\layout\\progress_dialog.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\home_banner_slice.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\layout\\home_banner_slice.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\search_heard_view.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\layout\\search_heard_view.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\customer_title.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\layout\\customer_title.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\home_list_item.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\layout\\home_list_item.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\common_search_key_item.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\layout\\common_search_key_item.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\order_exchange_list_item.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\layout\\order_exchange_list_item.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\order_exchange_detail.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\layout\\order_exchange_detail.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\product_show_list_item.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\layout\\product_show_list_item.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\home_fragment.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\layout\\home_fragment.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\include_product_details_param.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\layout\\include_product_details_param.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\category_fragment.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\layout\\category_fragment.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\order_list.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\layout\\order_list.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\layout\\abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\common_search.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\layout\\common_search.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\product_detail_font.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\layout\\product_detail_font.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\layout\\abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\layout\\notification_media_action.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\order_available_coupon.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\layout\\order_available_coupon.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\product_attr_list_item.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\layout\\product_attr_list_item.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\order_confirm_order_consignee_slice.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\layout\\order_confirm_order_consignee_slice.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\text_field.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\layout\\text_field.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\order_list_item.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\layout\\order_list_item.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\loadmore_default_footer.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\exploded-aar\\com.chanven.lib\\cptr\\1.0.0\\res\\layout\\loadmore_default_footer.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\right_arrow_row_view.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\layout\\right_arrow_row_view.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\person_walletlog_list.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\layout\\person_walletlog_list.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\layout\\abc_screen_content_include.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\person_exchange_apply.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\layout\\person_exchange_apply.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\home_menu_navigation_slice.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\layout\\home_menu_navigation_slice.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\include_search_box.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\layout\\include_search_box.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\common_search_hotkey_item.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\layout\\common_search_hotkey_item.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\common_search_key_title_item.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\layout\\common_search_key_title_item.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\order_confirm_order_productlist_slice.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\layout\\order_confirm_order_productlist_slice.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\shopcart_empty.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\layout\\shopcart_empty.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\color_selector.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\exploded-aar\\com.github.navasmdc\\MaterialDesign\\1.5\\res\\layout\\color_selector.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\sample_item_text.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\layout\\sample_item_text.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\product_detail_inner.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\layout\\product_detail_inner.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\home_header_view.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\layout\\home_header_view.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\person_walletlog_item.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\layout\\person_walletlog_item.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\layout\\abc_search_view.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\activity_popu_list.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\layout\\activity_popu_list.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\logistic_list_item.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\layout\\logistic_list_item.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\sample_header.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\layout\\sample_header.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\layout\\abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\person_receive_address_slice.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\layout\\person_receive_address_slice.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\layout\\abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\category_left_item.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\layout\\category_left_item.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\person_fragment.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\layout\\person_fragment.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\category_right_item.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\layout\\category_right_item.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\person_fragment_header.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\layout\\person_fragment_header.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\person_address_list_item.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\layout\\person_address_list_item.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\product_details.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\layout\\product_details.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\person_head_slice.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\layout\\person_head_slice.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\shopcart_fragment.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\layout\\shopcart_fragment.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\number_indicator_spinner.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\exploded-aar\\com.github.navasmdc\\MaterialDesign\\1.5\\res\\layout\\number_indicator_spinner.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\product_list_item.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\layout\\product_list_item.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\text_gallery_item.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\layout\\text_gallery_item.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\picture_select_view.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\layout\\picture_select_view.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\layout\\abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\pull_to_refresh_header_horizontal.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\exploded-aar\\TPshop-master\\androidPullToRefresh_library\\unspecified\\res\\layout\\pull_to_refresh_header_horizontal.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\include_product_list_header_sort.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\layout\\include_product_list_header_sort.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\order_coupon_item.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\layout\\order_coupon_item.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\product_guess_you_like_item.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\layout\\product_guess_you_like_item.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\person_coupon_main_view.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\layout\\person_coupon_main_view.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\person_settings_list_item.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\layout\\person_settings_list_item.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\confirm_dialog_layout.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\layout\\confirm_dialog_layout.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\layout\\select_dialog_item_material.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\layout\\abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\product_show_list.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\layout\\product_show_list.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\layout\\select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\layout\\abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\person_collect_list.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\layout\\person_collect_list.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\star_view.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\layout\\star_view.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\person_coupon_fragment_view.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\layout\\person_coupon_fragment_view.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\person_setting_list.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\layout\\person_setting_list.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\spproduct_list_tab_view.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\layout\\spproduct_list_tab_view.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\product_guess_you_like_list.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\layout\\product_guess_you_like_list.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\product_spec_cart_item.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\layout\\product_spec_cart_item.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\pay_list.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\layout\\pay_list.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\person_collect_list_item.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\layout\\person_collect_list_item.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\product_details_spec.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\layout\\product_details_spec.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\activity_index_gallery_item.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\layout\\activity_index_gallery_item.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\tag.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\layout\\tag.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\person_order_all_slice.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\layout\\person_order_all_slice.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\layout\\abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\snackbar.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\exploded-aar\\com.github.navasmdc\\MaterialDesign\\1.5\\res\\layout\\snackbar.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\person_userinfo_slice.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\layout\\person_userinfo_slice.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\activity_spregister.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\layout\\activity_spregister.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\order_button_gallery_item.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\layout\\order_button_gallery_item.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\common_webview_main.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\layout\\common_webview_main.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\layout\\abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\dialog.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\exploded-aar\\com.github.navasmdc\\MaterialDesign\\1.5\\res\\layout\\dialog.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\titlebar.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\layout\\titlebar.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\slidingmenumain.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\exploded-aar\\TPshop-master\\slidingMenu_library\\unspecified\\res\\layout\\slidingmenumain.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\activity_popu_list_item.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\layout\\activity_popu_list_item.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\product_list_filter_item.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\layout\\product_list_filter_item.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\product_details_comment_list_item.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\layout\\product_details_comment_list_item.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\order_confirm_order.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\layout\\order_confirm_order.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_spproduct_list_filter.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\layout\\fragment_spproduct_list_filter.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\cube_ptr_classic_default_header.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\exploded-aar\\com.chanven.lib\\cptr\\1.0.0\\res\\layout\\cube_ptr_classic_default_header.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\category_grid_title_item.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\layout\\category_grid_title_item.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\home_menu_navigation_slice2.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\layout\\home_menu_navigation_slice2.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\separator_line_margin_slice.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\layout\\separator_line_margin_slice.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\abc_simple_dropdown_hint.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\layout\\abc_simple_dropdown_hint.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\person_address_list.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\layout\\person_address_list.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\person_integrate_row_slice.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\layout\\person_integrate_row_slice.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\layout\\abc_screen_simple.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\layout\\person_collectl_slice.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\layout\\person_collectl_slice.xml"
+    }
+]

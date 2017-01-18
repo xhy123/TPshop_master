@@ -1,0 +1,107 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="50dip"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/titlebar_layout"
+    android:background="@color/bg_view">
+
+    <FrameLayout android:id="@+id/titlebar_normal_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/titlebar_back_btn"
+            android:layout_gravity="left|center_vertical"
+            android:layout_marginLeft="@dimen/margin_space"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/title_back_selector"/>
+
+        <TextView
+            android:id="@+id/titlebar_title_txtv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="商品详情"
+            style="@style/textStyle.Medium.black"
+            android:gravity="center"/>
+    </FrameLayout>
+    <LinearLayout android:id="@+id/titlebar_home_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="invisible"
+        android:background="@color/transparent"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/titlebar_scan_btn"
+            android:layout_gravity="left|center_vertical"
+            android:layout_marginLeft="@dimen/margin_space"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/icon_scan"
+            android:background="@color/transparent"
+            android:text="@string/home_title_scan"
+            style="@style/textStyle.Small.black"/>
+        <SearchView android:id="@+id/titlebar_home_seach_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:iconifiedByDefault="false"
+            android:queryHint="@string/hint_search"
+            android:background="@color/transparent"
+            android:voiceIcon="@drawable/icon_voice"
+            android:searchIcon="@drawable/icon_search"
+            android:layout_weight="1"
+            style="@style/textStyle.Normal.black">
+
+        </SearchView>
+        <Button
+            android:id="@+id/titlebar_msg_btn"
+            android:layout_gravity="right|center_vertical"
+            android:layout_marginRight="@dimen/margin_space"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/icon_msg"
+            android:background="@color/transparent"
+            android:text="@string/home_title_msg"
+            style="@style/textStyle.Small.white"/>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/titlebar_category_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="invisible"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/titlebar_cate_back_btn"
+            android:layout_gravity="left|center_vertical"
+            android:layout_marginLeft="@dimen/margin_space"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/title_back_selector"/>
+        <SearchView android:id="@+id/titlebar_category_seach_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:iconifiedByDefault="false"
+            android:queryHint="@string/hint_search"
+            android:background="@color/transparent"
+            android:voiceIcon="@drawable/icon_voice"
+            android:searchIcon="@drawable/icon_search"
+            android:layout_weight="1"
+            style="@style/textStyle.Normal.subTitle">
+
+        </SearchView>
+        <Button
+            android:id="@+id/titlebar_shopcart_btn"
+            android:layout_gravity="right|center_vertical"
+            android:layout_marginRight="@dimen/margin_space"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/icon_titlebar_shopcart"
+            style="@style/textStyle.Small.white"/>
+    </LinearLayout>
+    <View android:id="@+id/titlebar_line"
+        style="@style/separator_line"
+        android:focusable="true"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:focusableInTouchMode="true"
+        android:layout_gravity="bottom"/>
+</FrameLayout>

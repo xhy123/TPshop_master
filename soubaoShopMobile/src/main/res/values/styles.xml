@@ -1,0 +1,254 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+
+    <!-- 自定义标题栏样式 -->
+    <style name="CustomTitlebarstyle" parent="AppBaseTheme">
+        <item name="vpiTabPageIndicatorStyle">@style/MyWidget.TabPageIndicator</item>
+        <item name="android:windowTitleSize">50dp</item>
+        <item name="android:windowTitleStyle">@style/textStyle.Small.black</item>
+        <item name="android:windowTitleBackgroundStyle">@style/CustomWindowTitleBackground</item>
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <item name="vpiTabPageIndicatorStyle">@style/MyWidget.TabPageIndicator</item>
+     	<item name="android:windowTitleBackgroundStyle">@style/CustomWindowTitleBackground</item>
+        <item name="android:windowTitleSize">50dp</item>
+        <item name="android:windowTitleStyle">@style/textStyle.Small.black</item>
+        <!-- 设置activity切换动画 -->
+        <item name="android:windowAnimationStyle">@style/activityAnimation</item>
+    </style>
+
+
+    <style name="activityAnimation" parent="@android:style/Animation">
+        <item name="android:activityOpenEnterAnimation">@anim/slide_right_in</item>
+        <item name="android:activityOpenExitAnimation">@anim/slide_left_out</item>
+        <item name="android:activityCloseEnterAnimation">@anim/slide_left_in</item>
+        <item name="android:activityCloseExitAnimation">@anim/slide_right_out</item>
+    </style>
+
+    <style name="MyWidget.TabPageIndicator" parent="Widget">
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/vpi__tab_indicator</item>
+        <item name="android:paddingLeft">22dip</item>
+        <item name="android:paddingRight">22dip</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:textAppearance">@style/MyTextAppearance.TabPageIndicator</item>
+        <item name="android:textSize">@dimen/textSizeNormal</item>
+        <item name="android:maxLines">1</item>
+    </style>
+
+    <style name="MyTextAppearance.TabPageIndicator" parent="Widget">
+        <!--item name="android:textStyle">bold</item -->
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+
+    <!-- 自定义action bar样式 -->
+    <style name="CustomWindowTitleBackground">
+        <item name="android:background">@drawable/titlebar_background</item>
+    </style>
+    
+
+    
+    <style name="tab_bottom">
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:button">@null</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">12px</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    
+    <style name="separator_line">
+        <item name="android:background">#ffe0e0e0</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">1.0px</item>
+    </style>
+
+    <style name="separator_line_vertical">
+        <item name="android:background">#ffe0e0e0</item>
+        <item name="android:layout_width">1.0px</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    
+    
+    
+    <style name="textStyle"></style>
+    
+    <style name="textStyle.Small">
+        <item name="android:textSize">@dimen/textSizeSmall</item>
+    </style>
+
+    <style name="textStyle.Normal">
+        <item name="android:textSize">@dimen/textSizeNormal</item>
+    </style>
+
+    <style name="textStyle.Medium">
+        <item name="android:textSize">@dimen/textSizeMedium</item>
+    </style>
+
+    <style name="textStyle.Big">
+        <item name="android:textSize">@dimen/textSizeBig</item>
+    </style>
+
+    <style name="textStyle.Big.subTitle" parent="textStyle.Big">
+        <item name="android:textColor">@color/sub_title</item>
+    </style>
+
+    <!-- 小号 , 黑色 -->
+    <style name="textStyle.Small.black" parent="textStyle.Small">
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <!-- 普通号 , 黑色 -->
+    <style name="textStyle.Normal.black" parent="textStyle.Normal">
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <!-- 中号 , 黑色 -->
+    <style name="textStyle.Medium.black" parent="textStyle.Medium">
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <!-- 中号 , 黑色 -->
+    <style name="textStyle.Medium.User" parent="textStyle.Medium.black">
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_marginTop">0dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+
+    <!-- 小号 , 白色 -->
+    <style name="textStyle.Small.white" parent="textStyle.Small">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <!-- 普通号 , 白色 -->
+    <style name="textStyle.Normal.white" parent="textStyle.Normal">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <!-- 中号 , 白色 -->
+    <style name="textStyle.Medium.white" parent="textStyle.Medium">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+
+    <!-- 大号 , 红色 -->
+    <style name="textStyle.Big.lightRed" parent="textStyle.Big">
+        <item name="android:textColor">@color/light_red</item>
+    </style>
+
+    <!-- 大号 , 黑色 -->
+    <style name="textStyle.Big.black" parent="textStyle.Big">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <!-- 普通号 , 红色 -->
+    <style name="textStyle.Normal.lightRed" parent="textStyle.Normal">
+        <item name="android:textColor">@color/light_red</item>
+    </style>
+
+    <!-- 小号 , 红色 -->
+    <style name="textStyle.Small.lightRed" parent="textStyle.Small">
+        <item name="android:textColor">@color/light_red</item>
+    </style>
+
+
+    <!-- 普通号 , 副标题 -->
+    <style name="textStyle.Normal.subTitle" parent="textStyle.Normal">
+        <item name="android:textColor">@color/sub_title</item>
+    </style>
+
+    <style name="loadingDialogStyle" parent="android:Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <!-- 对话框是否有遮盖 -->
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+    <style name="SwitchButtonStyle">
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:paddingBottom">4dp</item>
+    </style>
+
+    <style name="confirmDialog" parent="android:style/Theme.Dialog">
+        <item name="android:background">#00000000</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+
+
+    <style name="text_18_ffffff">
+        <item name="android:textSize">18.0dip</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+
+    <style name="text_16_666666">
+        <item name="android:textSize">16.0dip</item>
+        <item name="android:textColor">#ff666666</item>
+    </style>
+
+    <style name="sdw_white">
+        <item name="android:shadowColor">#7fffffff</item>
+        <item name="android:shadowDx">0.0</item>
+        <item name="android:shadowDy">0.65</item>
+        <item name="android:shadowRadius">1.0</item>
+    </style>
+
+    <style name="sdw_79351b">
+        <item name="android:shadowColor">#ff79351b</item>
+        <item name="android:shadowDx">0.0</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">1.0</item>
+    </style>
+
+    <style name="text_15_ffffff_sdw" parent="@style/sdw_79351b">
+        <item name="android:textSize">15.0dip</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+
+    <style name="text_15_666666_sdw" parent="@style/sdw_white">
+        <item name="android:textSize">15.0dip</item>
+        <item name="android:textColor">#ff666666</item>
+    </style>
+
+    <style name="button_style" parent="@style/sdw_white">
+        <item name="android:layout_height">@dimen/height_button</item>
+        <item name="android:textSize">@dimen/textSizeMedium</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:background">@drawable/btn_bg</item>
+    </style>
+
+    <style name="edit_text" parent="@style/Widget">
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:background">@drawable/bg_line_write</item>
+        <item name="android:layout_marginLeft">@dimen/tag_common_margin</item>
+        <item name="android:textSize">@dimen/textSizeNormal</item>
+    </style>
+</resources>

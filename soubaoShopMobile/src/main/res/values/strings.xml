@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">TPshop商城</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_spproduct_detail_inner">SPProductDetailInnerActivity</string>
+    <string name="title_activity_spconfirm_order">SPConfirmOrderActivity</string>
+
+    <item name="key_tag_index1" type="id"></item>
+    <item name="key_tag_index2" type="id"></item>
+    <string name="digate_1">12</string>
+    <!-- 商城主界面相关字符串 -->
+    <string name="tab_item_home">商城</string>
+    <string name="tab_item_category">分类</string>
+    <string name="tab_item_shopcart">购物车</string>
+    <string name="tab_item_mine">我的</string>
+
+    <string name="text_item_category">分类</string>
+    <string name="text_item_shopcatd">购物车</string>
+    <string name="text_item_order">订单</string>
+    <string name="text_item_coupon">优惠券</string>
+    <!-- 主页 home -->
+    <string name="home_menu_first">限时抢购</string>
+    <string name="home_menu_sec">新品</string>
+    <string name="home_menu_third">推荐</string>
+    <string name="home_menu_fourth">充值</string>
+
+    <!-- 产品列表 -->
+    <string name="product_price">¥%1$2.2f</string>
+    <string name="sort_composite">综合</string>
+    <string name="sort_salenum">销量</string>
+    <string name="sort_price">价格</string>
+    <string name="sort_filter">筛选</string>
+    <string name="hint_search">请输入要搜索的商品</string>
+    <string name="hint_comment">请输入评价</string>
+
+    <!-- 产品列表 -> 产品详情 -->
+    <string name="product_details_spec">产品规格</string>
+    <string name="product_details_attr">商品属性</string>
+    <string name="product_details_detail">详情</string>
+    <string name="product_details_comment">累计评价</string>
+    <string name="product_details_like">已收藏</string>
+    <string name="product_details_unlike">未收藏</string>
+    <string name="product_add_cart">加入购物车</string>
+    <string name="product_buy_now">立即购买</string>
+
+    <!-- 订单 , 确认订单 -->
+    <string name="order_deliver_type">配送方式</string>
+    <string name="order_coupon">代金券/优惠券</string>
+    <string name="order_invoice">发票抬头</string>
+    <string name="order_residue_balance">当前余额</string>
+    <string name="order_goods_fee">商品总额</string>
+    <string name="order_shopping_fee">运费</string>
+    <string name="order_amount_fee">应付金额</string>
+    <string name="order_coupon_hint">请输入优惠码</string>
+
+    <!-- 订单列表 , 订单详情 -->
+    <string name="toast_no_ordersn_data">无订单数据</string>
+
+
+    <!--支付列表 -->
+    <string name="pay_money">支付金额</string>
+    <string name="pay_wechat">微信支付</string>
+    <string name="pay_alipay">支付宝支付</string>
+    <string name="pay_cod">货到付款</string>
+    <string name="go_home">回首页</string>
+    <string name="look_order">查看订单</string>
+
+    <!-- 我的 -->
+    <string name="person_nickname">点击此处登录</string>
+    <string name="person_mine_order">我的订单</string>
+    <string name="person_all_order">查看全部订单</string>
+    <string name="person_order_waitpay">待付款</string>
+    <string name="person_order_waitreceive">待收货</string>
+    <string name="person_order_waitcomment">待评价</string>
+    <string name="person_order_returned">退/换货</string>
+    <string name="person_order_canceled">已取消</string>
+    <string name="person_goods_collect">我的收藏</string>
+    <string name="person_receive_address">收货地址</string>
+    <string name="person_user_info">个人资料</string>
+    <string name="person_integrate_detail">积分明细</string>
+    <string name="person_coupon">优惠券</string>
+
+
+    <!-- 我的 -> 收货地址  -->
+    <string name="person_consignee_name">收货人:</string>
+    <string name="person_consignee_name_hit">请输入收货人姓名</string>
+    <string name="person_consignee_phone">手机号码:</string>
+    <string name="person_consignee_phone_hit">请输入手机号码</string>
+    <string name="person_consignee_district">所在地区:</string>
+    <string name="person_consignee_district_hit">选择所在地区</string>
+    <string name="person_consignee_street">详细地址:</string>
+    <string name="person_consignee_street_hit">输入详细地址:</string>
+    <string name="person_consignee_default">设置为默认收货地址</string>
+    <string name="address_add">新建地址</string>
+
+
+    <!-- 公共字符串 -->
+    <string name="count">数量</string>
+    <string name="comment">评论</string>
+    <string name="image_text_detail">图文详情</string>
+    <string name="order_pay">去结算</string>
+    <string name="coupon">优惠券</string>
+    <string name="use">使用</string>
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+    <string name="settings">设置</string>
+    <string name="exit">安全退出</string>
+    <string name="province">省</string>
+    <string name="city">市</string>
+    <string name="district">区</string>
+    <string name="town">镇</string>
+    <string name="delete">删除</string>
+    <string name="delete_history">删除历史记录</string>
+    <string name="search_history">搜索历史</string>
+    <string name="hot_search">热搜</string>
+    <string name="apply_return">申请售后</string>
+    <string name="apply_comment">去评价</string>
+    <string name="submit_comment">提交评论</string>
+    <string name="scan">扫一扫</string>
+
+    <!-- 通用提示语  -->
+    <string name="data_error">数据异常</string>
+    <string name="toast_collect_success">成功收藏</string>
+    <string name="toast_collect_cancel">取消收藏</string>
+    <string name="toast_not_datal">请选择商品数量</string>
+    <string name="toast_shopcart_action_success">购物车操作成功</string>
+    <string name="toast_count_not_small_zero">"数量不能少于0"</string>
+    <string name="toast_low_stocks">库存不足</string>
+    <string name="toast_load_data">正在加载数据</string>
+    <string name="toast_person_unlogin">请先登录</string>
+    <string name="toast_address_nocompletion">地址信息不完整</string>
+
+
+    <string name="title_spec">规格属性</string>
+    <string name="title_product_detail">商品详情</string>
+    <string name="title_consignee_list">收货人地址</string>
+    <string name="title_collect">收藏</string>
+    <string name="title_balance_points">积分金额明细</string>
+    <string name="title_confirm_order">确认订单</string>
+    <string name="title_product_list">商品列表</string>
+    <string name="title_pay_completed">支付完成</string>
+    <string name="title_pay_list">支付列表</string>
+    <string name="title_logistic">物流</string>
+    <string name="title_getcontent">获取内容</string>
+    <string name="title_detail">订单详情</string>
+    <string name="title_exchange_list">退换货列表</string>
+    <string name="title_consignee">收货地址</string>
+    <string name="title_home">TPshop商城</string>
+    <string name="toast_no_select_province">请先选择省份</string>
+    <string name="toast_no_select_city">请先选择城市</string>
+    <string name="toast_no_select_district">请先选择区县</string>
+    <string name="toast_no_preview_district">请选择上级地区</string>
+    <string name="toast_next_version">该版本为公测版,下版本开放该功能</string>
+
+    <string name="login_title">登录</string>
+    <string name="login_phone_number">手机号码</string>
+    <string name="login_phone_number_null">请输入手机号码</string>
+    <string name="login_password">登录密码</string>
+    <string name="login_password_null">请输入密码</string>
+    <string name="login_btn_login">登录</string>
+    <string name="login_register">快速注册</string>
+    <string name="login_forget_pwd">找回密码</string>
+    <string name="forget_pwd_title">忘记密码</string>
+    <string name="register_title">注册</string>
+    <string name="register_phone_number">手机号码</string>
+    <string name="register_phone_number_null">请输入手机号码</string>
+    <string name="register_btn_next">下一步</string>
+    <string name="register_sub_title">请输入手机号码<xliff:g id="step_count">%1$s</xliff:g>收到的校验码</string>
+    <string name="register_check_code">校验码</string>
+    <string name="register_btn_re_code"><xliff:g id="step_count">%1$d</xliff:g>秒后重发</string>
+    <string name="register_btn_re_code_done">获取验证码</string>
+    <string name="edit_code_null">请输入验证码</string>
+    <string name="register_password">密码</string>
+    <string name="register_password_null">请输入密码</string>
+    <string name="register_confirm_password">确认密码</string>
+    <string name="register_error_info_re">两次输入的密码不一致</string>
+    <string name="register_error_info">*密码和确认密码必须是字母大小写或数字，长度为6-20位</string>
+    <string name="register_btn_register">注册</string>
+    <string name="register_forget_password">找回密码</string>
+    <string name="register_edit_digits" translatable="false">0123456789abcdefghigklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+
+    <string name="user_head">头像</string>
+    <string name="user_phone">手机号码</string>
+    <string name="user_nick">昵称</string>
+    <string name="user_sex">性别</string>
+    <string name="user_age">出生日期</string>
+    <string name="user_save">保存</string>
+    <string-array name="user_sex_name">
+        <item>保密</item>
+        <item>男</item>
+        <item>女</item>
+    </string-array>
+    <string name="user_age_format"><xliff:g id="year">%1$d</xliff:g>-<xliff:g id="month">%2$02d</xliff:g>-<xliff:g id="day">%3$02d</xliff:g></string>
+    <string name="user_head_title">选择头像</string>
+    <string-array name="user_head_name">
+        <item>拍照</item>
+        <item>相册</item>
+    </string-array>
+    <string name="home_title_scan">扫扫</string>
+    <string name="home_title_msg">消息</string>
+    <string name="title_coupon">优惠券</string>
+    <string name="title_goods_comment">商品评论</string>
+    <string name="title_apply_exchnage">申请售后</string>
+    <string name="title_exchange_detail">售后详情</string>
+    <string name="title_product_spec">商品规格</string>
+
+    <string name="title_shopcart">购物车</string>
+    <string name="title_category">分类</string>
+
+    <string name="scan_text">将二维码放入框内, 即可自动扫描</string>
+    <string name="scan_back">返回</string>
+    <string name="scan_title">二维码扫描</string>
+    <string name="copyright_title">获取完整功能,请联系官方客服</string>
+</resources>

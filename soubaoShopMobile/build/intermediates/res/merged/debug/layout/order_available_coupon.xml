@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_activity"
+    >
+
+    <RelativeLayout
+        android:id="@+id/coupon_rlayout"
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:background="@color/bg_view">
+
+        <Button
+            android:id="@+id/coupon_check_btn"
+            android:layout_width="20dip"
+            android:layout_height="20dip"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/margin_space"
+            android:clickable="false"
+            android:focusableInTouchMode="false"
+            android:background="@drawable/icon_checkno"
+            android:layout_alignParentLeft="true"/>
+
+        <EditText
+            android:id="@+id/coupon_edtv"
+            android:layout_toRightOf="@id/coupon_check_btn"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_text"
+            android:layout_marginLeft="@dimen/margin_space"
+            android:layout_marginRight="@dimen/margin_space"
+            android:layout_centerVertical="true"
+            android:hint="@string/order_coupon_hint"
+            style="@style/textStyle.Normal.black"/>
+    </RelativeLayout>
+
+    <include
+        android:layout_below="@+id/coupon_rlayout"
+        android:id="@+id/coupon_separator_line"
+        android:layout_width="match_parent"
+        android:layout_height="12px"
+        layout="@layout/separator_line_margin_slice"/>
+    <ListView
+        android:id="@+id/order_coupon_listv"
+        android:layout_below="@id/coupon_rlayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@color/separator_line"
+        android:dividerHeight="1px"
+        android:fadingEdge="none"
+        android:fastScrollEnabled="false"
+        android:footerDividersEnabled="false"
+        android:headerDividersEnabled="false"
+        android:layout_marginTop="@dimen/margin_space"
+        android:layout_marginBottom="55dip"
+        android:scrollbars="none"
+        android:smoothScrollbar="true" />
+
+    <Button
+        android:id="@+id/coupon_use_btn"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_button"
+        android:text="@string/use"
+        android:textColor="@color/white"
+        android:background="@drawable/button_selector"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="@dimen/margin_space"
+        android:layout_marginRight="@dimen/margin_space"
+        android:layout_marginBottom="@dimen/margin_space"
+        />
+
+</RelativeLayout>

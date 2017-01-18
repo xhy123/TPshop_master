@@ -1,0 +1,88 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/bg_view"
+    android:orientation="vertical"
+    android:descendantFocusability="blocksDescendants">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dip"
+        android:layout_marginTop="@dimen/margin_space_half">
+
+        <ImageView
+            android:id="@+id/comment_head_imgv"
+            android:layout_alignParentLeft="true"
+            android:layout_width="40.0dip"
+            android:layout_height="40.0dip"
+            android:layout_marginLeft="@dimen/margin_space"
+            android:src="@drawable/product_default"
+            android:background="@color/white"
+            android:scaleType="fitCenter" />
+
+        <TextView
+            android:id="@+id/comment_username_txtv"
+            android:layout_toRightOf="@id/comment_head_imgv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="@dimen/margin_space_half"
+            android:ellipsize="end"
+            android:gravity="left|center_vertical"
+            android:maxLines="1"
+            android:text="张三"
+            style="@style/textStyle.Normal.black" />
+
+        <TextView
+            android:id="@+id/comment_addtime_txtv"
+            android:layout_alignParentRight="true"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingRight="@dimen/margin_space"
+            android:ellipsize="end"
+            android:gravity="right|center_vertical"
+            android:maxLines="1"
+            android:text="2016-7-8 15:30:47"
+            style="@style/textStyle.Normal.black" />
+    </RelativeLayout>
+    <com.soubao.tpshop.view.SPStarView
+        android:id="@+id/comment_star_layout"
+        android:layout_width="match_parent"
+        android:layout_height="25dip"
+        android:orientation="horizontal"
+        android:background="@color/green">
+    </com.soubao.tpshop.view.SPStarView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/margin_space_half">
+        <TextView
+            android:id="@+id/comment_content_txtv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="@dimen/margin_space"
+            android:ellipsize="end"
+            android:gravity="left|center_vertical"
+            android:maxLines="1"
+            android:text="不错, 超喜欢"
+            style="@style/textStyle.Normal.black" />
+    </LinearLayout>
+    <HorizontalScrollView
+        android:id="@+id/comment_product_scrollv"
+        android:layout_marginLeft="@dimen/margin_space"
+        android:layout_marginRight="@dimen/margin_space"
+        android:layout_width="match_parent"
+        android:layout_gravity="center_vertical"
+        android:visibility="gone"
+        android:layout_height="80dip">
+        <LinearLayout
+            android:id="@+id/comment_gallery_lyaout"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal" >
+        </LinearLayout>
+    </HorizontalScrollView>
+
+</LinearLayout>

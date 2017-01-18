@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.soubao.tpshop"
+    android:versionCode="1"
+    android:versionName="1.0.5" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="21" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-feature android:name="android.hardware.camera" > </uses-feature>
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+
+    <application
+        android:name=".global.SPMobileApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/appicon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".SPMainActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.person.address.SPConsigneeAddressEditActivity_"
+            android:label="@string/app_name" >
+        </activity>
+
+        <activity
+            android:name=".activity.person.address.SPCitySelectActivity_"
+            android:label="@string/app_name" >
+        </activity>
+
+        <activity
+            android:name=".activity.shop.SPProductListActivity"
+            android:label="@string/app_name" >
+        </activity>
+
+        <activity android:name=".activity.shop.SPProductListSearchResultActivity" >
+        </activity>
+
+        <activity
+            android:name=".activity.shop.SPProductDetailActivity_"
+            android:label="@string/title_product_detail" >
+        </activity>
+        <activity
+            android:name=".activity.shop.SPProductDetaiSpeclActivity_"
+            android:label="@string/title_spec" >
+        </activity>
+        <activity
+            android:name=".activity.shop.SPProductDetailInnerActivity_"
+            android:label="@string/title_activity_spproduct_detail_inner" >
+        </activity>
+        <activity
+            android:name=".activity.shop.SPConfirmOrderActivity_"
+            android:label="@string/title_activity_spconfirm_order" >
+        </activity>
+        <activity
+            android:name=".activity.person.address.SPConsigneeAddressListActivity_"
+            android:label="@string/title_consignee_list" >
+        </activity>
+        <activity
+            android:name=".activity.shop.SPChooseLogisticActivity_"
+            android:label="@string/title_activity_spconfirm_order" >
+        </activity>
+        <activity android:name=".activity.shop.SPAvailableCouponActivity_" >
+        </activity>
+
+        <activity android:name=".activity.common.SPTextFieldViewActivity_" >
+        </activity>
+
+        <activity android:name=".activity.common.SPPayListActivity_" >
+        </activity>
+
+
+        <activity android:name=".activity.person.order.SPOrderListActivity_" >
+        </activity>
+
+        <activity android:name=".activity.person.order.SPOrderDetailActivity_" >
+
+        </activity>
+
+
+
+        <activity android:name=".activity.shop.SPProductShowListActivity_" >
+        </activity>
+
+
+        <activity android:name=".activity.common.SPWebviewActivity_" >
+        </activity>
+
+        <activity android:name=".activity.person.SPCollectListActivity_" >
+        </activity>
+
+        <activity android:name=".activity.person.SPWalletLogtListActivity_" >
+        </activity>
+
+        <activity android:name=".activity.person.SPSettingListActivity_" >
+        </activity>
+
+        <activity android:name=".activity.common.SPSearchCommonActivity_" >
+        </activity>
+
+        <activity android:name="com.soubao.spmobile.SPMobileActivity" >
+        </activity>
+
+        <activity android:name=".activity.person.SPCouponListActivity_" >
+        </activity>
+
+
+
+        <!-- alipay sdk begin -->
+        <activity
+            android:name="com.alipay.sdk.app.H5PayActivity"
+            android:configChanges="orientation|keyboardHidden|navigation|screenSize"
+            android:exported="false"
+            android:screenOrientation="behind"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <!-- alipay sdk end -->
+
+        <activity android:name=".activity.person.user.SPLoginActivity_" />
+        <activity android:name=".activity.person.user.SPRegisterActivity_" />
+        <activity android:name=".activity.person.user.SPForgetPwdActivity_" />
+        <activity android:name=".activity.person.user.SPUserDetailsActivity_" />
+        <activity android:name=".activity.common.SPPopuListViewActivity"></activity>
+        <activity android:name=".zxing.MipcaActivityCapture"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+
+        <meta-data android:value="5791f0f4e0f55a3996000c52" android:name="UMENG_APPKEY"></meta-data>
+        <meta-data android:value="Shop" android:name="UMENG_CHANNEL"/>
+    </application>
+
+</manifest>

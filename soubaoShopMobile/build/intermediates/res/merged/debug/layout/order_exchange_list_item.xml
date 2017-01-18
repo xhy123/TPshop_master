@@ -1,0 +1,101 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="160dip"
+    android:background="@color/bg_view"
+    android:orientation="vertical" >
+
+   <!-- 产品列表ITEM -->
+   <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dip">
+
+        <TextView
+            android:id="@+id/exchange_ordersn_txtv"
+            android:layout_alignParentLeft="true"
+            android:layout_width="match_parent"
+            android:layout_height="20.0dip"
+            android:layout_marginTop="@dimen/margin_space_half"
+            android:layout_marginLeft="@dimen/margin_space"
+            android:ellipsize="end"
+            android:gravity="left"
+            android:text="订单编号:20160704201740"
+            android:maxEms="6"
+            android:maxLines="1"
+            style="@style/textStyle.Normal.black" />
+
+       <TextView
+           android:id="@+id/exchange_status_txtv"
+           android:layout_alignParentRight="true"
+           android:layout_width="match_parent"
+           android:layout_height="20.0dip"
+           android:layout_marginTop="@dimen/margin_space_half"
+           android:layout_marginRight="@dimen/margin_space"
+           android:ellipsize="end"
+           android:gravity="right"
+           android:text="已经完成"
+           android:maxEms="6"
+           android:maxLines="1"
+           style="@style/textStyle.Normal.lightRed" />
+
+       <TextView
+           android:id="@+id/exchange_addtime_txtv"
+           android:layout_below="@id/exchange_status_txtv"
+           android:layout_alignParentLeft="true"
+           android:layout_width="match_parent"
+           android:layout_height="20.0dip"
+           android:layout_marginLeft="@dimen/margin_space"
+           android:ellipsize="end"
+           android:gravity="left"
+           android:text="申请时间:2016-7-4 20:23:49"
+           android:maxEms="6"
+           android:maxLines="1"
+           style="@style/textStyle.Normal.black" />
+
+       <TextView
+           android:id="@+id/exchange_reason_txtv"
+           android:layout_below="@id/exchange_addtime_txtv"
+           android:layout_alignParentLeft="true"
+           android:layout_width="match_parent"
+           android:layout_height="20.0dip"
+           android:layout_marginLeft="@dimen/margin_space"
+           android:ellipsize="end"
+           android:gravity="left"
+           android:text="原因:不合适"
+           android:maxEms="6"
+           android:maxLines="1"
+           style="@style/textStyle.Normal.black" />
+    </RelativeLayout>
+    <View  style="@style/separator_line"/>
+    <!-- 产品列表ITEM -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dip">
+
+        <ImageView
+            android:id="@+id/exchange_product_pic_imgv"
+            android:layout_width="80.0dip"
+            android:layout_height="80.0dip"
+            android:src="@drawable/product_default"
+            android:background="@color/white"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="@dimen/margin_space"
+            android:layout_marginTop="@dimen/margin_space_half"
+            android:scaleType="fitCenter" />
+
+        <TextView
+            android:id="@+id/exchange_product_name_txtv"
+            android:layout_toRightOf="@id/exchange_product_pic_imgv"
+            android:layout_width="match_parent"
+            android:layout_height="80.0dip"
+            android:layout_marginTop="@dimen/margin_space_half"
+            android:layout_marginLeft="@dimen/margin_space_half"
+            android:layout_marginRight="@dimen/margin_space"
+            android:ellipsize="end"
+            android:gravity="left"
+            android:text="衣服"
+            android:maxEms="6"
+            android:maxLines="4"
+            style="@style/textStyle.Normal.black" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,107 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="185dip"
+    android:orientation="vertical"
+	android:descendantFocusability="blocksDescendants"
+    android:background="@color/bg_activity">
+
+	<View  style="@style/separator_line"/>
+	<FrameLayout
+		android:layout_width="match_parent"
+		android:layout_height="90dip"
+		android:background="@color/bg_view"
+		android:clickable="true">
+
+		<HorizontalScrollView
+			android:id="@+id/order_product_scrollv"
+			android:layout_marginLeft="@dimen/margin_space"
+			android:layout_marginRight="@dimen/margin_space"
+			android:layout_width="match_parent"
+			android:layout_gravity="center_vertical"
+
+			android:clickable="true"
+			android:layout_height="match_parent">
+			<LinearLayout
+				android:id="@+id/product_list_gallery_lyaout"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center_vertical"
+				android:background="@color/bg_view"
+				android:orientation="horizontal" >
+			</LinearLayout>
+		</HorizontalScrollView>
+
+		<RelativeLayout
+			android:id="@+id/order_product_rlayout"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:clickable="true">
+			<ImageView
+				android:id="@+id/order_pic_imgv"
+				android:layout_alignParentLeft="true"
+				android:layout_centerVertical="true"
+				android:layout_marginLeft="@dimen/margin_space"
+				android:layout_width="80dip"
+				android:layout_height="80dip"
+				android:src="@drawable/personal_arrow_right"/>
+			<TextView
+				android:id="@+id/order_product_name_txtv"
+				android:layout_width="match_parent"
+				android:layout_height="80dip"
+				android:layout_centerVertical="true"
+				android:layout_toRightOf="@id/order_pic_imgv"
+				android:layout_marginLeft="@dimen/margin_space_half"
+				android:layout_marginRight="@dimen/margin_space"
+				android:gravity="left|center_vertical"
+				android:text="AAAAAAAAAAA"
+				style="@style/textStyle.Normal.black"/>
+		</RelativeLayout>
+	</FrameLayout>
+	<View  style="@style/separator_line"/>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="40dip"
+		android:background="@color/bg_view">
+		<TextView
+			android:id="@+id/order_product_detail_txtv"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:layout_centerVertical="true"
+			android:layout_marginLeft="@dimen/margin_space_half"
+			android:layout_marginRight="@dimen/margin_space"
+			android:gravity="right|center_vertical"
+			android:text="共1件商品 实付金额¥699"
+			style="@style/textStyle.Normal.black"/>
+	</LinearLayout>
+	<View  style="@style/separator_line"/>
+	<LinearLayout
+		android:id="@+id/order_button_layout"
+		android:layout_width="match_parent"
+		android:layout_height="@dimen/height_row"
+		android:gravity="center_vertical"
+		android:orientation="horizontal"
+		android:background="@color/bg_view">
+
+		<HorizontalScrollView
+			android:id="@+id/order_button_scrollv"
+			android:layout_marginLeft="@dimen/margin_space"
+			android:layout_marginRight="@dimen/margin_space"
+			android:layout_width="match_parent"
+			android:layout_gravity="center_vertical"
+			android:fillViewport="true"
+			android:layout_height="match_parent">
+			<LinearLayout
+				android:id="@+id/order_button_gallery_lyaout"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:layout_gravity="center_vertical|right"
+				android:gravity="right"
+				android:orientation="horizontal" >
+			</LinearLayout>
+		</HorizontalScrollView>
+	</LinearLayout>
+	<View  style="@style/separator_line"/>
+
+</LinearLayout>

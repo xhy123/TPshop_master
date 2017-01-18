@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="50dip"
+    android:layout_width="match_parent"
+    android:background="@color/bg_view">
+
+    <ImageView
+        android:id="@+id/order_coupon_check_imgv"
+        android:layout_marginLeft="@dimen/margin_space"
+        android:layout_alignParentLeft="true"
+        android:layout_width="20dip"
+        android:layout_height="20dip"
+        android:background="@drawable/icon_checked"
+        android:layout_centerVertical="true"/>
+
+    <TextView
+        android:id="@+id/order_coupon_title_txtv"
+        android:layout_width="match_parent"
+        android:layout_height="25dip"
+        android:layout_toRightOf="@id/order_coupon_check_imgv"
+        android:layout_marginLeft="@dimen/margin_space_half"
+        android:gravity="center_vertical|left"
+        android:singleLine="true"
+        style="@style/textStyle.Normal.black" />
+
+    <TextView
+        android:id="@+id/order_coupon_sub_title_txtv"
+        android:layout_width="match_parent"
+        android:layout_height="15dip"
+        android:layout_toRightOf="@id/order_coupon_check_imgv"
+        android:layout_below="@id/order_coupon_title_txtv"
+        android:layout_marginLeft="@dimen/margin_space_half"
+        android:gravity="center_vertical|left"
+        android:singleLine="true"
+        style="@style/textStyle.Normal.subTitle" />
+
+
+
+</RelativeLayout>

@@ -1,0 +1,574 @@
+[
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\person_head_bg.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\drawable-xhdpi\\person_head_bg.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\vpi__tab_unselected_pressed_holo.9.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\exploded-aar\\TPshop-master\\viewPagerIndicator_library\\unspecified\\res\\drawable-xhdpi-v4\\vpi__tab_unselected_pressed_holo.9.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_home_menu_sec.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\drawable-xhdpi\\icon_home_menu_sec.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\personal_icon_recommend.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\drawable-xhdpi\\personal_icon_recommend.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\personal_order_all_icon.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\drawable-xhdpi\\personal_order_all_icon.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\pay_alipay.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\drawable-xhdpi\\pay_alipay.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_camera.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\drawable-xhdpi\\icon_camera.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\default_ptr_rotate.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\exploded-aar\\TPshop-master\\androidPullToRefresh_library\\unspecified\\res\\drawable-xhdpi-v4\\default_ptr_rotate.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ptr_rotate_arrow.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\exploded-aar\\com.chanven.lib\\cptr\\1.0.0\\res\\drawable-xhdpi\\ptr_rotate_arrow.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\bg_line_write.9.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\drawable-xhdpi\\bg_line_write.9.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_menu_moreoverflow_mtrl_alpha.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\drawable-xhdpi\\abc_ic_menu_moreoverflow_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_minus_normal.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\drawable-xhdpi\\icon_minus_normal.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\vpi__tab_unselected_holo.9.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\exploded-aar\\TPshop-master\\viewPagerIndicator_library\\unspecified\\res\\drawable-xhdpi-v4\\vpi__tab_unselected_holo.9.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_clear_mtrl_alpha.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\drawable-xhdpi\\abc_ic_clear_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_start_checked_normal.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\drawable-xhdpi\\icon_start_checked_normal.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_go_search_api_mtrl_alpha.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\drawable-xhdpi\\abc_ic_go_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\drawable-xhdpi\\abc_tab_indicator_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\title_back_normal.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\drawable-xhdpi\\title_back_normal.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_start_checked_small.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\drawable-xhdpi\\icon_start_checked_small.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\personal_icon_feedback.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\drawable-xhdpi\\personal_icon_feedback.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\shop_icon_price_asc.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\drawable-xhdpi\\shop_icon_price_asc.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_up_small.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\drawable-xhdpi\\icon_up_small.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\b_input.9.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\drawable-xhdpi\\b_input.9.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_swtich_open.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\drawable-xhdpi\\icon_swtich_open.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\drawable-xhdpi\\abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_checkno.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\drawable-xhdpi\\icon_checkno.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_level_one.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\drawable-xhdpi\\icon_level_one.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_launcher.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\exploded-aar\\com.github.navasmdc\\MaterialDesign\\1.5\\res\\drawable-xhdpi-v4\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_radio_to_on_mtrl_000.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\drawable-xhdpi\\abc_btn_radio_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\pay_wechat.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\drawable-xhdpi\\pay_wechat.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_ab_back_mtrl_am_alpha.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\drawable-xhdpi\\abc_ic_ab_back_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\drawable-xhdpi\\abc_textfield_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\product_unlike.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\drawable-xhdpi\\product_unlike.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\drawable-xhdpi\\abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\topbar_message.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\drawable-xhdpi\\topbar_message.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_location.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\drawable-xhdpi\\icon_location.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_switch_track_mtrl_alpha.9.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\drawable-xhdpi\\abc_switch_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\shop_icon_price_desc.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\drawable-xhdpi\\shop_icon_price_desc.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_home_menu_fourth.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\drawable-xhdpi\\icon_home_menu_fourth.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_focused_holo.9.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\drawable-xhdpi\\abc_list_focused_holo.9.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_start_uncheck_normal.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\drawable-xhdpi\\icon_start_uncheck_normal.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\test_i.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\drawable-xhdpi\\test_i.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\switch_mask.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\drawable-xhdpi\\switch_mask.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\always_purchase_cart_icon.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\drawable-xhdpi\\always_purchase_cart_icon.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\personal_order_purchased_icon.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\drawable-xhdpi\\personal_order_purchased_icon.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_minus_press.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\drawable-xhdpi\\icon_minus_press.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\flight_text_cancel_pressed.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\drawable-xhdpi\\flight_text_cancel_pressed.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\drawable-xhdpi\\abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_search.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\drawable-xhdpi\\icon_search.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\switch_btn_normal.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\drawable-xhdpi\\switch_btn_normal.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\personal_icon_pocket.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\drawable-xhdpi\\personal_icon_pocket.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_start_uncheck_small.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\drawable-xhdpi\\icon_start_uncheck_small.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\switch_btn_pressed.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\drawable-xhdpi\\switch_btn_pressed.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_arrow_detail.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\drawable-xhdpi\\icon_arrow_detail.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_pressed_holo_dark.9.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\drawable-xhdpi\\abc_list_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\switch_bottom.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\drawable-xhdpi\\switch_bottom.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\drawable-xhdpi\\abc_btn_switch_to_on_mtrl_00001.9.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\vpi__tab_selected_focused_holo.9.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\exploded-aar\\TPshop-master\\viewPagerIndicator_library\\unspecified\\res\\drawable-xhdpi-v4\\vpi__tab_selected_focused_holo.9.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\dialog_background.9.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\exploded-aar\\com.github.navasmdc\\MaterialDesign\\1.5\\res\\drawable-xhdpi-v4\\dialog_background.9.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_textfield_default_mtrl_alpha.9.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\drawable-xhdpi\\abc_textfield_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_pressed_holo_light.9.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\drawable-xhdpi\\abc_list_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_level_three.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\drawable-xhdpi\\icon_level_three.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\personal_icon_account_manager_arrow.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\drawable-xhdpi\\personal_icon_account_manager_arrow.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\float_button1_shadowp.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\exploded-aar\\com.github.navasmdc\\MaterialDesign\\1.5\\res\\drawable-xhdpi-v4\\float_button1_shadowp.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_setting.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\drawable-xhdpi\\icon_setting.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\personal_icon_privilege.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\drawable-xhdpi\\personal_icon_privilege.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\arrow_right.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\drawable-xhdpi\\arrow_right.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_delete.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\drawable-xhdpi\\icon_delete.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\drawable-xhdpi\\abc_ic_menu_selectall_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_track_oepn.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\drawable-xhdpi\\icon_track_oepn.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_close.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\drawable-xhdpi\\icon_close.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_plus_press.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\drawable-xhdpi\\icon_plus_press.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\product_default.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\drawable-xhdpi\\product_default.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\bd7.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\drawable-xhdpi\\bd7.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\drawable-xhdpi\\abc_cab_background_top_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_rating_star_off_mtrl_alpha.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\drawable-xhdpi\\abc_btn_rating_star_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\title_back_selected.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\drawable-xhdpi\\title_back_selected.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\switch_frame.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\drawable-xhdpi\\switch_frame.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_check_to_on_mtrl_015.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\drawable-xhdpi\\abc_btn_check_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_edit.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\drawable-xhdpi\\icon_edit.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_pay_success.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\drawable-xhdpi\\icon_pay_success.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_swtich_close.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\drawable-xhdpi\\icon_swtich_close.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\btn_bg_press.9.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\drawable-xhdpi\\btn_bg_press.9.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\sprite_check.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\exploded-aar\\com.github.navasmdc\\MaterialDesign\\1.5\\res\\drawable-xhdpi-v4\\sprite_check.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_text_cursor_mtrl_alpha.9.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\drawable-xhdpi\\abc_text_cursor_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\drawable-xhdpi\\abc_textfield_search_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\indicator_arrow.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\exploded-aar\\TPshop-master\\androidPullToRefresh_library\\unspecified\\res\\drawable-xhdpi-v4\\indicator_arrow.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\drawable-xhdpi\\abc_textfield_search_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\personal_order_canceled_icon.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\drawable-xhdpi\\personal_order_canceled_icon.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\drawable-xhdpi\\abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\product_cart.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\drawable-xhdpi\\product_cart.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_popup_background_mtrl_mult.9.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\drawable-xhdpi\\abc_popup_background_mtrl_mult.9.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_checked.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\drawable-xhdpi\\icon_checked.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_reloj_max.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\exploded-aar\\com.github.navasmdc\\MaterialDesign\\1.5\\res\\drawable-xhdpi-v4\\ic_reloj_max.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\personal_icon_order_notify_bg.9.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\drawable-xhdpi\\personal_icon_order_notify_bg.9.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_check_to_on_mtrl_000.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\drawable-xhdpi\\abc_btn_check_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_home_menu_third.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\drawable-xhdpi\\icon_home_menu_third.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\btn_bg_normal.9.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\drawable-xhdpi\\btn_bg_normal.9.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_coupon_used.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\drawable-xhdpi\\icon_coupon_used.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\appicon.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\drawable-xhdpi\\appicon.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\bd8.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\drawable-xhdpi\\bd8.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\personal_icon_baicai.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\drawable-xhdpi\\personal_icon_baicai.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_plus_normal.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\drawable-xhdpi\\icon_plus_normal.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\category_default.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\drawable-xhdpi\\category_default.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_rating_star_on_mtrl_alpha.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\drawable-xhdpi\\abc_btn_rating_star_on_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_voice_search_api_mtrl_alpha.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\drawable-xhdpi\\abc_ic_voice_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_search_api_mtrl_alpha.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\drawable-xhdpi\\abc_ic_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\personal_icon_default_avatar.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\drawable-xhdpi\\personal_icon_default_avatar.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_track_close.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\drawable-xhdpi\\icon_track_close.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\bd0.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\drawable-xhdpi\\bd0.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\drawable-xhdpi\\abc_ab_share_pack_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_dark.9.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\drawable-xhdpi\\abc_list_selector_disabled_holo_dark.9.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_level_two.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\drawable-xhdpi\\icon_level_two.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\personal_order_accepted_icon.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\drawable-xhdpi\\personal_order_accepted_icon.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_shopcart_empty.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\drawable-xhdpi\\icon_shopcart_empty.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_longpressed_holo.9.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\drawable-xhdpi\\abc_list_longpressed_holo.9.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\pay_cod.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\drawable-xhdpi\\pay_cod.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\personal_arrow_right.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\drawable-xhdpi\\personal_arrow_right.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\drawable-xhdpi\\abc_menu_hardkey_panel_mtrl_mult.9.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\shop_icon_price_normal.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\drawable-xhdpi\\shop_icon_price_normal.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\drawable-xhdpi\\abc_ic_menu_paste_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_coupon_unuse.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\drawable-xhdpi\\icon_coupon_unuse.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_cart_count.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\drawable-xhdpi\\icon_cart_count.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\drawable-xhdpi\\abc_ic_commit_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_divider_mtrl_alpha.9.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\drawable-xhdpi\\abc_list_divider_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\product_like.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\drawable-xhdpi\\product_like.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\drawable-xhdpi\\abc_ic_menu_share_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\list_check_p.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\drawable-xhdpi\\list_check_p.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\personal_icon_service.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\drawable-xhdpi\\personal_icon_service.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\float_button_shadow1.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\exploded-aar\\com.github.navasmdc\\MaterialDesign\\1.5\\res\\drawable-xhdpi-v4\\float_button_shadow1.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\vpi__tab_selected_holo.9.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\exploded-aar\\TPshop-master\\viewPagerIndicator_library\\unspecified\\res\\drawable-xhdpi-v4\\vpi__tab_selected_holo.9.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\vpi__tab_selected_pressed_holo.9.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\exploded-aar\\TPshop-master\\viewPagerIndicator_library\\unspecified\\res\\drawable-xhdpi-v4\\vpi__tab_selected_pressed_holo.9.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_home_menu_first.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\drawable-xhdpi\\icon_home_menu_first.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\vpi__tab_unselected_focused_holo.9.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\exploded-aar\\TPshop-master\\viewPagerIndicator_library\\unspecified\\res\\drawable-xhdpi-v4\\vpi__tab_unselected_focused_holo.9.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_light.9.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\drawable-xhdpi\\abc_list_selector_disabled_holo_light.9.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\default_ptr_flip.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\exploded-aar\\TPshop-master\\androidPullToRefresh_library\\unspecified\\res\\drawable-xhdpi-v4\\default_ptr_flip.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_radio_to_on_mtrl_015.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\drawable-xhdpi\\abc_btn_radio_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\jshop_searchbar_search.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\drawable-xhdpi\\jshop_searchbar_search.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\smartbar_background.9.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\drawable-xhdpi\\smartbar_background.9.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_picture.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\drawable-xhdpi\\icon_picture.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\personal_order_returned_icon.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\drawable-xhdpi\\personal_order_returned_icon.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\titlebar_background.9.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\drawable-xhdpi\\titlebar_background.9.png"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\bcy.png",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\drawable-xhdpi\\bcy.png"
+    }
+]

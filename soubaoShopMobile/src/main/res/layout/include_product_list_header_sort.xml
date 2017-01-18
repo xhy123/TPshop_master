@@ -1,0 +1,73 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/bg_activity">
+
+    <LinearLayout
+        android:id="@+id/toolBar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="7.0dip"
+        android:paddingTop="7.0dip" >
+
+        <TextView
+            android:id="@+id/sort_button_synthesis"
+            android:layout_weight="1.0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@drawable/product_list_sort_text_selector"
+            android:paddingBottom="8.0dip"
+            android:paddingTop="8.0dip"
+            android:clickable="true"
+            android:focusable="true"
+            android:text="@string/sort_composite"
+            android:gravity="center"
+            android:textSize="15.0sp" />
+
+        <TextView
+            android:id="@+id/sort_button_salenum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@drawable/product_list_sort_text_selector"
+            android:paddingBottom="8.0dip"
+            android:gravity="center"
+            android:layout_weight="1.0"
+            android:paddingTop="8.0dip"
+            android:clickable="true"
+            android:focusable="true"
+            android:text="@string/sort_salenum"
+            android:textSize="15.0sp" />
+
+        <TextView
+            android:id="@+id/sort_button_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@drawable/product_list_sort_text_selector"
+            android:paddingBottom="8.0dip"
+            android:gravity="center"
+            android:layout_weight="1.0"
+            android:paddingTop="8.0dip"
+            android:clickable="true"
+            android:focusable="true"
+            android:text="@string/sort_price"
+            android:textSize="15.0sp" />
+
+        <TextView
+            android:id="@+id/sort_button_filer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@drawable/product_list_sort_text_selector"
+            android:paddingBottom="8.0dip"
+            android:gravity="center"
+            android:layout_weight="1.0"
+            android:paddingTop="8.0dip"
+            android:clickable="true"
+            android:focusable="true"
+            android:text="@string/sort_filter"
+            android:textSize="15.0sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:orientation="vertical" >
+    
+	<RelativeLayout
+        android:id="@+id/search_box_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="32.0dip"
+        android:focusable="true"
+        android:background="@drawable/b_input"
+        android:gravity="center_vertical" >
+
+        <ImageView
+            android:id="@+id/search_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8.0dip"
+            android:layout_marginRight="8.0dip"
+            android:src="@drawable/icon_search" />
+
+        <EditText
+            android:id="@+id/search_edtv"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical"
+            android:layout_toRightOf="@+id/search_icon"
+            android:background="@color/transparent"
+            android:gravity="center_vertical"
+            android:hint="@string/hint_search"
+            android:imeOptions="actionSearch"
+            android:paddingRight="32.0dip"
+            android:singleLine="true"
+            android:textColor="@color/search_title_text_color"
+            android:textColorHint="@color/search_title_hint_text_color"
+            android:textSize="@dimen/textSizeNormal" />
+
+        <ImageView
+            android:id="@+id/search_clean"
+            android:layout_width="32.0dip"
+            android:layout_height="fill_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:padding="6.0dip"
+            android:scaleType="centerInside"
+            android:src="@drawable/flight_text_cancel_pressed"
+            android:visibility="gone" />
+	</RelativeLayout>
+	
+</LinearLayout>

@@ -1,0 +1,116 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="40.0dip"
+    android:paddingBottom="1.0px"
+    android:paddingTop="1.0px"
+    android:background="@color/bg_view">
+
+        <RelativeLayout
+            android:id="@+id/sort_composite_lyout"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:focusable="true"
+            android:clickable="true"
+            android:onClick="iconClickListener"
+            android:layout_weight="1.0">
+
+            <TextView
+                android:id="@+id/sort_composite_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20.0dip"
+                android:duplicateParentState="true"
+                android:text="@string/sort_composite"
+                android:textColor="@drawable/product_list_sort_text_selector"
+                android:textSize="16.0sp" />
+
+            <ImageView
+                android:id="@+id/chi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="4.0dip"
+                android:layout_toRightOf="@+id/sort_composite_txt" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/sort_salenum_lyout"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:focusable="true"
+            android:clickable="true"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/sort_salenum_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:duplicateParentState="true"
+                android:gravity="center"
+                android:text="@string/sort_salenum"
+                android:textColor="@drawable/product_list_sort_text_selector"
+                android:textSize="16.0sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/sort_price_layout"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:gravity="center_horizontal"
+            android:paddingRight="5.0dip">
+
+            <TextView
+                android:id="@+id/sort_price_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:duplicateParentState="true"
+                android:padding="5.0dip"
+                android:text="@string/sort_price"
+                android:textColor="@drawable/product_list_sort_text_selector"
+                android:textSize="16.0sp" />
+
+            <ImageView
+                android:id="@+id/sort_price_draweev"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/sort_price_txt"
+                android:src="@drawable/bd7" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/sort_filter_layout"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:focusable="true"
+            android:clickable="true"
+            android:layout_weight="1.0">
+
+            <ImageView
+                android:id="@+id/sort_filter_drawwee"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="18.0dip"
+                android:background="@drawable/a6w" />
+
+            <TextView
+                android:id="@+id/sort_filter_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="2.0dip"
+                android:layout_toLeftOf="@+id/sort_filter_drawwee"
+                android:duplicateParentState="true"
+                android:singleLine="true"
+                android:text="@string/sort_filter"
+                android:textColor="@drawable/product_list_sort_text_selector"
+                android:textSize="16.0sp" />
+        </RelativeLayout>
+</LinearLayout>

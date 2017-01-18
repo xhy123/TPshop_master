@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/person_layout"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="478dip"
+    android:background="@color/bg_activity"
+    android:orientation="vertical" >
+
+        <!-- 头像, 用户名称等信息 -->
+        <include layout="@layout/person_head_slice"
+            android:layout_width="match_parent"
+            android:layout_height="140dip"/>
+        <include layout="@layout/separator_line_margin_slice"/>
+
+        <!-- 我的订单 -->
+        <include
+            android:id="@+id/person_order_all_container"
+            layout="@layout/person_order_all_slice"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_row"/>
+
+        <View  style="@style/separator_line"/>
+
+        <!-- 订单分类 -->
+        <include layout="@layout/person_order_category_slice"/>
+        <include layout="@layout/separator_line_margin_slice"/>
+
+        <!-- 我的收藏 -->
+        <com.soubao.tpshop.view.SPArrowRowView
+            android:id="@+id/person_collect_aview"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_row"
+            android:clickable="true"
+            android:focusable="true"
+            custom:titleText="@string/person_goods_collect" />
+        <include layout="@layout/separator_line_margin_slice"/>
+
+        <!-- 余额, 积分 -->
+        <include
+            android:id="@+id/person_integrate_rlayout"
+            layout="@layout/person_integrate_row_slice"
+            android:layout_width="match_parent"
+            android:layout_height="60dip"/>
+        <View  style="@style/separator_line"/>
+
+        <!-- 收货地址 -->
+        <com.soubao.tpshop.view.SPArrowRowView
+            android:id="@+id/person_receive_address_aview"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_row"
+            android:clickable="true"
+            android:focusable="true"
+            custom:titleText="@string/person_receive_address" />
+        <View  style="@style/separator_line"/>
+
+        <!-- 优惠券 -->
+        <com.soubao.tpshop.view.SPArrowRowView
+            android:id="@+id/person_coupon_aview"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_row"
+            android:clickable="true"
+            android:focusable="true"
+            custom:titleText="@string/person_coupon" />
+        <View  style="@style/separator_line"/>
+
+</LinearLayout>

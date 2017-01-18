@@ -1,0 +1,111 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="110dip"
+    android:background="@color/bg_activity"
+    android:orientation="horizontal" >
+
+   <!-- 产品列表ITEM -->
+   <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/view_bg_clickable_selector">
+
+        <ImageView
+            android:id="@+id/product_pic_imgv"
+            android:layout_width="80.0dip"
+            android:layout_height="80.0dip"
+            android:src="@drawable/product_default"
+            android:background="@color/white"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="@dimen/margin_space"
+            android:layout_marginTop="10dip"
+            android:scaleType="fitCenter" />
+
+        <TextView
+            android:id="@+id/product_name_txtv"
+            android:layout_toRightOf="@id/product_pic_imgv"
+            android:layout_width="match_parent"
+            android:layout_height="40.0dip"
+            android:layout_marginTop="@dimen/margin_space_half"
+            android:layout_marginLeft="@dimen/margin_space_half"
+            android:layout_marginRight="@dimen/margin_space"
+            android:ellipsize="end"
+            android:gravity="left"
+            android:text="针织衫"
+            android:maxEms="6"
+            android:maxLines="1"
+            style="@style/textStyle.Normal.black" />
+        
+        <TextView
+            android:id="@+id/product_spec_txtv"
+            android:layout_width="match_parent"
+            android:layout_height="20.0dip"
+            android:layout_below="@id/product_name_txtv"
+            android:layout_toRightOf="@id/product_pic_imgv"
+            android:ellipsize="end"
+            android:gravity="left"
+            android:layout_marginLeft="@dimen/margin_space_half"
+            android:maxEms="6"
+            android:maxLines="1"
+            android:text="产品规格"
+            style="@style/textStyle.Normal.black" />
+
+       <TextView
+           android:id="@+id/product_price_txtv"
+           android:layout_width="match_parent"
+           android:layout_height="20.0dip"
+           android:layout_below="@id/product_spec_txtv"
+           android:layout_toRightOf="@id/product_pic_imgv"
+           android:layout_marginLeft="@dimen/margin_space_half"
+           android:ellipsize="end"
+           android:gravity="left|center_vertical"
+           android:text="¥999"
+           android:maxEms="6"
+           android:maxLines="1"
+           style="@style/textStyle.Normal.black" />
+
+       <TextView
+           android:id="@+id/product_count_txtv"
+           android:layout_width="50dip"
+           android:layout_height="20.0dip"
+           android:layout_below="@id/product_price_txtv"
+           android:layout_toRightOf="@id/product_pic_imgv"
+           android:ellipsize="end"
+           android:gravity="left|center_vertical"
+           android:layout_marginLeft="@dimen/margin_space_half"
+           android:text="x1"
+           android:maxEms="6"
+           android:maxLines="1"
+           style="@style/textStyle.Normal.black" />
+
+       <Button
+           android:id="@+id/product_apply_return_btn"
+           android:layout_width="80dp"
+           android:layout_height="25dp"
+           android:layout_marginRight="@dimen/margin_space_half"
+           android:layout_alignParentRight="true"
+           android:layout_below="@id/product_name_txtv"
+           android:visibility="invisible"
+           style="@style/textStyle.Small.black"
+           android:text="申请售后"
+           android:background="@drawable/tag_button_bg_unchecked"
+           android:layout_centerVertical="true"/>
+
+       <Button
+           android:id="@+id/product_apply_comment_btn"
+           android:layout_width="80dp"
+           android:layout_height="25dp"
+           android:layout_marginRight="@dimen/margin_space_half"
+           android:layout_marginTop="5dip"
+           android:layout_alignParentRight="true"
+           android:layout_below="@id/product_apply_return_btn"
+           style="@style/textStyle.Small.black"
+           android:text="去评价"
+           android:visibility="invisible"
+           android:background="@drawable/tag_button_bg_checked"
+           android:layout_centerVertical="true"/>
+
+    </RelativeLayout>
+</LinearLayout>

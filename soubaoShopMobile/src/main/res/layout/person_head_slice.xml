@@ -1,0 +1,102 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/person_head_bg"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <RelativeLayout android:id="@+id/header_relayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/person_head_relayout_padding"
+        android:orientation="vertical">
+      
+	    <com.soubao.tpshop.view.SPMoreImageView
+	        android:id="@+id/head_mimgv"
+            android:layout_width="70dip"
+            android:layout_height="70dip"
+            android:src="@drawable/person_default_head"
+            android:adjustViewBounds="true"
+            android:layout_marginLeft="20dip"
+            android:layout_centerVertical="true"/>
+        
+	    <TextView android:id="@+id/nickname_txtv"
+	        android:layout_centerHorizontal="true"
+	        android:gravity="left|center_vertical"
+	        android:layout_width="150dip"
+	        android:layout_height="30dip"
+            android:layout_alignTop="@id/head_mimgv"
+            android:layout_marginLeft="@dimen/margin_space_half"
+            android:layout_toRightOf="@+id/head_mimgv"
+	        android:textColor="@android:color/white"
+	        android:text="@string/person_nickname"/>
+
+        <LinearLayout
+            android:layout_width="150dip"
+            android:layout_height="30dip"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_alignBottom="@id/head_mimgv"
+            android:layout_marginLeft="@dimen/margin_space_half"
+            android:layout_toRightOf="@+id/head_mimgv">
+
+            <ImageView
+                android:id="@+id/level_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_level_one"/>
+
+            <TextView android:id="@+id/level_name_txtv"
+                android:layout_centerHorizontal="true"
+                android:gravity="left|center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="一级会员"
+                style="@style/textStyle.Small.white"/>
+        </LinearLayout>
+
+
+
+
+        <RelativeLayout
+            android:id="@+id/account_rlayout"
+            android:layout_width="150dip"
+            android:layout_height="30dip"
+            android:gravity="center"
+            android:clickable="true"
+            android:orientation="horizontal"
+            android:layout_alignBottom="@id/head_mimgv"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/margin_space">
+            <ImageView
+                android:id="@+id/arrow_imgv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/personal_icon_account_manager_arrow"/>
+            <TextView
+                android:layout_centerHorizontal="true"
+                android:gravity="right|center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/margin_space_half"
+                android:layout_toLeftOf="@id/arrow_imgv"
+                android:text="账户管理"
+                style="@style/textStyle.Small.white"/>
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/setting_btn"
+            android:layout_width="33dip"
+            android:layout_height="33dip"
+            android:layout_above="@+id/account_rlayout"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/margin_space"
+            android:background="@drawable/icon_setting"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

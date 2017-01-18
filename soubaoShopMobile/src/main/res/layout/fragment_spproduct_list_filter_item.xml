@@ -1,0 +1,30 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:f="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_view"
+    tools:context="com.soubao.tpshop.fragment.SPProductListFilterFragment">
+
+    <TextView
+        android:id="@+id/filter_title_txtv"
+        android:layout_width="match_parent"
+        android:layout_height="20dip"
+        android:gravity="center_vertical|left"
+        android:layout_marginLeft="@dimen/margin_space"
+        android:singleLine="true"
+        style="@style/textStyle.Small.black" />
+
+    <com.soubao.tpshop.view.tagview.TagListView
+        android:id="@+id/filter_taglstv"
+        android:layout_below="@id/filter_title_txtv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_space"
+        android:paddingBottom="@dimen/tag_common_margin"
+        android:paddingTop="@dimen/tag_listview_padding_top"
+        f:horizontalSpacing="@dimen/tag_horizontal_spacing"
+        f:orientation="horizontal"
+        f:verticalSpacing="@dimen/tag_vertical_spacing" />
+
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="12px"
+    android:gravity="center"
+    android:orientation="vertical">
+    
+	<!-- 有间距的分割线 -->
+    <View style="@style/separator_line"/>
+                
+    <View style="@style/separator_line" android:layout_marginTop="6dip"/>
+
+</LinearLayout>

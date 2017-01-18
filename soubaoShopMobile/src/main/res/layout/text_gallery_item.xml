@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="50dp"
+    android:layout_height="45dp"
+    android:layout_marginRight="5dp"
+    android:gravity="center_vertical"
+    android:clickable="true">
+
+    <TextView
+        android:id="@+id/id_index_gallery_item_text"
+        android:layout_width="80dp"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical|left"
+        android:layout_marginLeft="@dimen/margin_space"
+        android:text="@string/hot_search"
+        style="@style/textStyle.Normal.black"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"/>
+
+</RelativeLayout>

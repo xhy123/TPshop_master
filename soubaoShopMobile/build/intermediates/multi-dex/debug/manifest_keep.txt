@@ -1,0 +1,45 @@
+-keep class com.soubao.tpshop.global.SPMobileApplication {
+    <init>();
+    void attachBaseContext(android.content.Context);
+}
+-keep class com.soubao.tpshop.SPMainActivity { <init>(); }
+-keep class com.soubao.tpshop.activity.person.address.SPConsigneeAddressEditActivity_ { <init>(); }
+-keep class com.soubao.tpshop.activity.person.address.SPCitySelectActivity_ { <init>(); }
+-keep class com.soubao.tpshop.activity.shop.SPProductListActivity { <init>(); }
+-keep class com.soubao.tpshop.activity.shop.SPProductListSearchResultActivity { <init>(); }
+-keep class com.soubao.tpshop.activity.shop.SPProductDetailActivity_ { <init>(); }
+-keep class com.soubao.tpshop.activity.shop.SPProductDetaiSpeclActivity_ { <init>(); }
+-keep class com.soubao.tpshop.activity.shop.SPProductDetailInnerActivity_ { <init>(); }
+-keep class com.soubao.tpshop.activity.shop.SPConfirmOrderActivity_ { <init>(); }
+-keep class com.soubao.tpshop.activity.person.address.SPConsigneeAddressListActivity_ { <init>(); }
+-keep class com.soubao.tpshop.activity.shop.SPChooseLogisticActivity_ { <init>(); }
+-keep class com.soubao.tpshop.activity.shop.SPAvailableCouponActivity_ { <init>(); }
+-keep class com.soubao.tpshop.activity.common.SPTextFieldViewActivity_ { <init>(); }
+-keep class com.soubao.tpshop.activity.common.SPPayListActivity_ { <init>(); }
+-keep class com.soubao.tpshop.activity.person.order.SPOrderListActivity_ { <init>(); }
+-keep class com.soubao.tpshop.activity.person.order.SPOrderDetailActivity_ { <init>(); }
+-keep class com.soubao.tpshop.activity.shop.SPProductShowListActivity_ { <init>(); }
+-keep class com.soubao.tpshop.activity.common.SPWebviewActivity_ { <init>(); }
+-keep class com.soubao.tpshop.activity.person.SPCollectListActivity_ { <init>(); }
+-keep class com.soubao.tpshop.activity.person.SPWalletLogtListActivity_ { <init>(); }
+-keep class com.soubao.tpshop.activity.person.SPSettingListActivity_ { <init>(); }
+-keep class com.soubao.tpshop.activity.common.SPSearchCommonActivity_ { <init>(); }
+-keep class com.soubao.spmobile.SPMobileActivity { <init>(); }
+-keep class com.soubao.tpshop.activity.person.SPCouponListActivity_ { <init>(); }
+-keep class com.alipay.sdk.app.H5PayActivity { <init>(); }
+-keep class com.soubao.tpshop.activity.person.user.SPLoginActivity_ { <init>(); }
+-keep class com.soubao.tpshop.activity.person.user.SPRegisterActivity_ { <init>(); }
+-keep class com.soubao.tpshop.activity.person.user.SPForgetPwdActivity_ { <init>(); }
+-keep class com.soubao.tpshop.activity.person.user.SPUserDetailsActivity_ { <init>(); }
+-keep class com.soubao.tpshop.activity.common.SPPopuListViewActivity { <init>(); }
+-keep class com.soubao.tpshop.zxing.MipcaActivityCapture { <init>(); }
+-keep public class * extends android.app.backup.BackupAgent {
+    <init>();
+}
+-keep public class * extends java.lang.annotation.Annotation {
+    *;
+}
+-keep class com.android.tools.fd.** {
+    *;
+}
+-dontnote com.android.tools.fd.**,android.support.multidex.MultiDexExtractor

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.soubao.tpshop.view.SPSearchView
+        android:id="@+id/search_view"
+        android:layout_width="match_parent"
+        android:layout_height="50dip" />
+
+    <ListView
+        android:id="@+id/search_key_listv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@color/separator_line"
+        android:dividerHeight="1px"
+        android:fadingEdge="none"
+        android:fastScrollEnabled="false"
+        android:footerDividersEnabled="false"
+        android:headerDividersEnabled="false"
+        android:layout_marginTop="50dip"
+        android:layout_marginBottom="50dip"
+        android:scrollbars="none"
+        android:smoothScrollbar="true" />
+
+    <Button
+        android:id="@+id/search_delete_btn"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_button"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:layout_marginBottom="10dip"
+        style="@style/textStyle.Normal.black"
+        android:text="@string/delete_history"
+        android:background="@drawable/tag_button_bg_unchecked"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

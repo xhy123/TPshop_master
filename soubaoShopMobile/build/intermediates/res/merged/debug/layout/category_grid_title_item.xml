@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:clickable="false"
+    android:id="@+id/id_index_gallery_item_rlayout">
+
+    <TextView
+        android:id="@+id/catelogy_right_title_txtv"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="@dimen/margin_space"
+        android:gravity="center_vertical|left"
+        android:text="AAA"
+        android:singleLine="true"
+        style="@style/textStyle.Medium.black" />
+
+</RelativeLayout>

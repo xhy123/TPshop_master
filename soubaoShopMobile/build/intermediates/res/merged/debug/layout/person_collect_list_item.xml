@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="90dip"
+    android:background="@color/bg_view"
+    android:orientation="horizontal" >
+
+   <!-- 产品列表ITEM -->
+   <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/view_bg_clickable_selector">
+
+        <ImageView
+            android:id="@+id/product_pic_imgv"
+            android:layout_width="80.0dip"
+            android:layout_height="80.0dip"
+            android:src="@drawable/product_default"
+            android:background="@color/white"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="@dimen/margin_space"
+            android:layout_marginTop="@dimen/margin_space_half"
+            android:scaleType="fitCenter" />
+
+        <TextView
+            android:id="@+id/product_name_txtv"
+            android:layout_toRightOf="@id/product_pic_imgv"
+            android:layout_width="match_parent"
+            android:layout_height="60.0dip"
+            android:layout_marginTop="@dimen/margin_space_half"
+            android:layout_marginLeft="@dimen/margin_space_half"
+            android:layout_marginRight="@dimen/margin_space"
+            android:ellipsize="end"
+            android:gravity="left"
+            android:text="针织衫"
+            android:maxEms="6"
+            android:maxLines="3"
+            style="@style/textStyle.Normal.black" />
+        
+       <TextView
+           android:id="@+id/product_price_txtv"
+           android:layout_width="match_parent"
+           android:layout_height="20.0dip"
+           android:layout_below="@id/product_name_txtv"
+           android:layout_toRightOf="@id/product_pic_imgv"
+           android:ellipsize="end"
+           android:gravity="left|center_vertical"
+           android:layout_marginLeft="@dimen/margin_space_half"
+           android:text="¥991"
+           android:maxEms="6"
+           android:maxLines="1"
+           style="@style/textStyle.Normal.lightRed" />
+    </RelativeLayout>
+</LinearLayout>

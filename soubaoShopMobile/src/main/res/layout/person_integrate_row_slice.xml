@@ -1,0 +1,116 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="60dip"
+    android:clickable="true"
+    android:focusable="true"
+    android:background="@drawable/view_bg_clickable_selector">
+
+    	<LinearLayout 
+    	    android:layout_alignParentLeft="true"
+          	android:layout_width="match_parent"
+          	android:layout_height="match_parent"
+          	android:orientation="horizontal"
+          	android:gravity="center_vertical"
+			android:layout_marginRight="120dip"
+          	android:layout_marginLeft="@dimen/margin_space">
+          
+
+			<LinearLayout
+				android:layout_weight="1.0"
+				android:layout_width="wrap_content"
+				android:layout_height="match_parent"
+				android:layout_marginTop="@dimen/margin_space"
+					android:orientation="vertical">
+
+				<TextView
+					android:id="@+id/person_balance_txtv"
+					android:layout_width="match_parent"
+					android:layout_height="20dip"
+					android:gravity="center"
+					android:text="10"
+					style="@style/textStyle.Normal.black"/>
+
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="20dip"
+					android:gravity="center"
+					android:text="余额"
+					style="@style/textStyle.Normal.black"/>
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_weight="1.0"
+				android:layout_width="wrap_content"
+				android:layout_height="match_parent"
+				android:layout_marginTop="@dimen/margin_space"
+				android:orientation="vertical">
+
+				<TextView
+					android:id="@+id/person_point_txtv"
+					android:layout_width="match_parent"
+					android:layout_height="20dip"
+					android:gravity="center"
+					android:text="10"
+					style="@style/textStyle.Normal.black"/>
+
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="20dip"
+					android:gravity="center"
+					android:text="积分"
+					style="@style/textStyle.Normal.black"/>
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_weight="1.0"
+				android:layout_width="wrap_content"
+				android:layout_height="match_parent"
+				android:layout_marginTop="@dimen/margin_space"
+				android:orientation="vertical">
+
+				<TextView
+					android:id="@+id/person_coupon_txtv"
+					android:layout_width="match_parent"
+					android:layout_height="20dip"
+					android:gravity="center"
+					android:text="10"
+					style="@style/textStyle.Normal.black"/>
+
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="20dip"
+					android:gravity="center"
+					android:text="优惠券"
+					style="@style/textStyle.Normal.black"/>
+			</LinearLayout>
+
+        </LinearLayout>
+        
+    	
+		<LinearLayout 
+		    android:layout_alignParentRight="true"
+			android:layout_width="120dip"
+			android:minWidth="120dip"
+          	android:layout_height="match_parent"
+          	android:orientation="horizontal"
+          	android:gravity="center_vertical|right"
+          	android:layout_marginRight="@dimen/margin_space">
+           
+           <TextView
+               android:layout_marginLeft="5dip"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="积分明细"
+		        style="@style/textStyle.Normal.subTitle"/>
+           
+           <ImageView 
+                android:layout_marginLeft="5dip"
+                android:layout_gravity="center_vertical"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:src="@drawable/personal_arrow_right"
+		        />
+        </LinearLayout>
+</RelativeLayout>

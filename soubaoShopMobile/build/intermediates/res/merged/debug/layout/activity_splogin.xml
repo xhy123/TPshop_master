@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".activity.person.user.SPLoginActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        style="@style/textStyle.Medium.User"
+        android:text="@string/login_phone_number"
+        android:id="@+id/txt_phone"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+         />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit_phone_num"
+        android:layout_toRightOf="@+id/txt_phone"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignBottom="@+id/txt_phone"
+        style="@style/edit_text"
+        android:text="13800138006"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dip"
+        android:layout_below="@+id/txt_phone"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="5dip"
+        android:layout_marginTop="5dip"/>
+    <TextView
+        android:layout_width="wrap_content"
+        style="@style/textStyle.Medium.User"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/login_password"
+        android:id="@+id/txt_pwd"
+        android:layout_below="@+id/txt_phone"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="false"
+        android:gravity="center" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/edit_password"
+        android:layout_toRightOf="@+id/txt_pwd"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:text="123456"
+        style="@style/edit_text"
+        android:layout_alignBottom="@+id/txt_pwd"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dip"
+        android:layout_below="@+id/txt_pwd"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="5dip"
+        android:layout_marginTop="5dip"/>
+    <Button
+        android:layout_width="match_parent"
+        style="@style/button_style"
+        android:text="@string/login_btn_login"
+        android:id="@+id/btn_login"
+        android:layout_below="@+id/txt_pwd"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:onClick="onLoginClick" />
+
+    <TextView
+        android:id="@+id/txt_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/btn_login"
+        android:onClick="onRegisterClick"
+        android:text="@string/login_register"
+        android:layout_marginTop="20dp"
+        android:clickable="true"
+        style="@style/textStyle.Normal.subTitle"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login_forget_pwd"
+        android:id="@+id/txt_forget_pwd"
+        android:layout_alignBottom="@+id/txt_register"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        style="@style/textStyle.Normal.subTitle"
+        android:clickable="true"
+        android:onClick="onForgetPwdClick" />
+
+    <LinearLayout
+        android:layout_below="@id/txt_register"
+        android:layout_marginTop="40dip"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="100dip">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dip"
+            style="@style/textStyle.Normal.black"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="测试账号:13800138006"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="false"
+            android:gravity="left|center_vertical" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dip"
+            style="@style/textStyle.Normal.black"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="测试密码:123456"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="false"
+            android:gravity="left|center_vertical" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dip"
+            style="@style/textStyle.Big.lightRed"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="完整源码下载地址:http://www.tp-shop.cn/"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="false"
+            android:gravity="left|center_vertical" />
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="23.0dip"
+        android:layout_marginLeft="60.0dip"
+        android:layout_marginRight="60.0dip"
+        android:gravity="center_horizontal">
+
+        <LinearLayout
+            android:id="@+id/wx_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:gravity="center_horizontal"
+
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/wx_icon_txt"
+                android:layout_width="50.0dip"
+                android:layout_height="50.0dip"
+                android:layout_alignParentLeft="true"
+                android:background="@drawable/button_logoin_wx_selector" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10.0dip"
+                android:gravity="center"
+                android:text="微信登录"
+                style="@style/textStyle.Normal.black" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/qq_icon_txt"
+                android:layout_width="50.0dip"
+                android:layout_height="50.0dip"
+                android:background="@drawable/button_logoin_qq_selector"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10.0dip"
+                android:text="QQ登录"
+                style="@style/textStyle.Normal.black" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

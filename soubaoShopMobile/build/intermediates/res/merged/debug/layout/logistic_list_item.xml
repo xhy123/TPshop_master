@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="@dimen/height_row"
+    android:layout_width="match_parent"
+    android:background="@color/bg_view">
+
+    <TextView
+        android:id="@+id/logistic_title_txtv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="@dimen/margin_space"
+        android:gravity="center_vertical|left"
+        android:singleLine="true"
+        style="@style/textStyle.Small.black" />
+
+    <ImageView
+        android:id="@+id/logistic_check_imgv"
+        android:layout_marginRight="@dimen/margin_space"
+        android:layout_alignParentRight="true"
+        android:layout_width="20dip"
+        android:layout_height="20dip"
+        android:src="@drawable/icon_checked"
+        android:layout_centerVertical="true"/>
+
+</RelativeLayout>

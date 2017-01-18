@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="@dimen/height_row"
+    android:layout_width="match_parent"
+    android:padding="10.0dip"
+    android:background="@drawable/view_bg_clickable_selector">
+
+    <TextView
+        android:id="@+id/search_item_key_txtv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical|left"
+        android:singleLine="true"
+        style="@style/textStyle.Small.black" />
+    
+</LinearLayout>

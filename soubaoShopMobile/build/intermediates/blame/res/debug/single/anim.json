@@ -1,0 +1,110 @@
+[
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\anim\\slide_right_out.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\anim\\slide_right_out.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\anim\\slide_out_to_bottom.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\exploded-aar\\TPshop-master\\androidPullToRefresh_library\\unspecified\\res\\anim\\slide_out_to_bottom.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\anim\\slide_left_out.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\anim\\slide_left_out.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\anim\\progress_indeterminate_animation.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\exploded-aar\\com.github.navasmdc\\MaterialDesign\\1.5\\res\\anim\\progress_indeterminate_animation.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\anim\\activityfade_in.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\anim\\activityfade_in.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\anim\\slide_right_in.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\anim\\slide_right_in.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\anim\\snackbar_show_animation.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\exploded-aar\\com.github.navasmdc\\MaterialDesign\\1.5\\res\\anim\\snackbar_show_animation.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\anim\\snackbar_hide_animation.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\exploded-aar\\com.github.navasmdc\\MaterialDesign\\1.5\\res\\anim\\snackbar_hide_animation.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\anim\\dialog_root_hide_amin.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\exploded-aar\\com.github.navasmdc\\MaterialDesign\\1.5\\res\\anim\\dialog_root_hide_amin.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\anim\\dialog_main_hide_amination.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\exploded-aar\\com.github.navasmdc\\MaterialDesign\\1.5\\res\\anim\\dialog_main_hide_amination.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\anim\\activityfade_out.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\anim\\activityfade_out.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\anim\\slide_out_to_top.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\exploded-aar\\TPshop-master\\androidPullToRefresh_library\\unspecified\\res\\anim\\slide_out_to_top.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\anim\\dialog_root_show_amin.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\exploded-aar\\com.github.navasmdc\\MaterialDesign\\1.5\\res\\anim\\dialog_root_show_amin.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\anim\\slide_in_from_top.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\exploded-aar\\TPshop-master\\androidPullToRefresh_library\\unspecified\\res\\anim\\slide_in_from_top.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\anim\\slide_left_in.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\src\\main\\res\\anim\\slide_left_in.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\anim\\abc_popup_exit.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\anim\\dialog_main_show_amination.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\exploded-aar\\com.github.navasmdc\\MaterialDesign\\1.5\\res\\anim\\dialog_main_show_amination.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\anim\\abc_popup_enter.xml"
+    },
+    {
+        "merged": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\res\\merged\\debug\\anim\\slide_in_from_bottom.xml",
+        "source": "E:\\CaiShengHuo\\personal\\TPshop-master\\soubaoShopMobile\\build\\intermediates\\exploded-aar\\TPshop-master\\androidPullToRefresh_library\\unspecified\\res\\anim\\slide_in_from_bottom.xml"
+    }
+]

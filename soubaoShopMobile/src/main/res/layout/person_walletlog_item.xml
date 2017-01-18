@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="60dip"
+    android:background="@color/bg_view"
+    android:orientation="horizontal" >
+
+   <!-- 产品列表ITEM -->
+   <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/view_bg_clickable_selector">
+
+        <TextView
+            android:id="@+id/walletlog_title_txtv"
+            android:layout_width="match_parent"
+            android:layout_height="20.0dip"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="@dimen/margin_space"
+            android:layout_marginLeft="@dimen/margin_space"
+            android:layout_marginRight="@dimen/margin_space"
+            android:ellipsize="end"
+            android:gravity="left|center_vertical"
+            android:text="针织衫"
+            android:maxEms="6"
+            android:maxLines="1"
+            style="@style/textStyle.Normal.black" />
+
+       <LinearLayout
+           android:layout_below="@id/walletlog_title_txtv"
+           android:layout_width="match_parent"
+           android:layout_height="20dip">
+
+           <TextView
+               android:id="@+id/walletlog_detail_txtv"
+               android:layout_weight="1.0"
+               android:layout_width="wrap_content"
+               android:layout_height="match_parent"
+               android:layout_alignParentLeft="true"
+               android:ellipsize="end"
+               android:gravity="left|center_vertical"
+               android:layout_marginLeft="@dimen/margin_space"
+               android:text="下单赠送积分"
+               android:maxEms="6"
+               android:maxLines="1"
+               style="@style/textStyle.Normal.black" />
+
+           <TextView
+               android:id="@+id/walletlog_date_txtv"
+               android:layout_weight="1.0"
+               android:layout_width="wrap_content"
+               android:layout_height="match_parent"
+               android:layout_below="@id/walletlog_title_txtv"
+               android:layout_alignParentLeft="true"
+               android:ellipsize="end"
+               android:gravity="right|center_vertical"
+               android:layout_marginRight="@dimen/margin_space"
+               android:text="2016-7-5 18:27:20"
+               android:maxEms="6"
+               android:maxLines="1"
+               style="@style/textStyle.Normal.subTitle" />
+
+       </LinearLayout>
+
+    </RelativeLayout>
+</LinearLayout>

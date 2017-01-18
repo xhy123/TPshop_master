@@ -1,0 +1,8 @@
+include ':StickyGridHeaders_library', ':HeaderAndFooterRecyclerView_library', ':magicindicator_library'
+
+include ':slidingMenu_library'
+include ':androidPullToRefresh_library'
+include ':viewPagerIndicator_library'
+include ':soubaoShopMobile'
+
+include ':viewPagerIndicator_library'

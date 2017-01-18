@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 商城主界面, 底部bottom tab 高度 -->
+    <dimen name="height_shop_tab_bottom_item">45dp</dimen>
+    <dimen name="bottom_tab_padding_drawable">0.5dip</dimen>
+   
+	<!-- 字体大小 -->
+    <dimen name="textSizeSmall">10sp</dimen>
+    <dimen name="textSizeNormal">12sp</dimen>
+    <dimen name="textSizeMedium">14sp</dimen>
+    <dimen name="textSizeBig">16sp</dimen>
+    <dimen name="textSizeHuge">18sp</dimen>
+   
+</resources>

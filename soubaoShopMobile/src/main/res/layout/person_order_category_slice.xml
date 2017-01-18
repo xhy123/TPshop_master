@@ -1,0 +1,100 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="80dip"
+    android:gravity="center_vertical"
+    android:background="@color/bg_view"
+    >
+    	<LinearLayout
+			android:id="@+id/personal_order_waitpay_layout"
+    	    android:layout_weight="1.0"
+          	android:layout_width="0dip"
+          	android:layout_height="match_parent"
+          	android:orientation="vertical"
+          	android:background="@drawable/view_bg_clickable_selector"
+          	android:clickable="true"
+          	android:focusable="true"
+          	android:gravity="center_horizontal|center_vertical">
+          
+           <ImageView 
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:src="@drawable/personal_order_purchased_icon"/>
+           
+           <TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/person_order_waitpay"
+			    style="@style/textStyle.Normal.black"/>
+        </LinearLayout>
+        
+    	<LinearLayout
+			android:id="@+id/personal_order_waitreceive_layout"
+    	    android:layout_weight="1.0"
+          	android:layout_width="0dip"
+          	android:layout_height="match_parent"
+          	android:orientation="vertical"
+          	android:background="@drawable/view_bg_clickable_selector"
+          	android:clickable="true"
+          	android:focusable="true"
+          	android:gravity="center_horizontal|center_vertical">
+          
+           <ImageView 
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:src="@drawable/personal_order_accepted_icon"/>
+           
+           <TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/person_order_waitreceive"
+			   style="@style/textStyle.Normal.black"/>
+        </LinearLayout>
+        
+    	<LinearLayout
+			android:id="@+id/personal_order_waitcomment_layout"
+    	    android:layout_weight="1.0"
+          	android:layout_width="0dip"
+          	android:layout_height="match_parent"
+          	android:orientation="vertical"
+          	android:background="@drawable/view_bg_clickable_selector"
+          	android:clickable="true"
+          	android:focusable="true"
+          	android:gravity="center_horizontal|center_vertical">
+          
+           <ImageView 
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:src="@drawable/personal_order_canceled_icon"/>
+           
+           <TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/person_order_waitcomment"
+		        style="@style/textStyle.Normal.black"/>
+        </LinearLayout>
+        
+    	<LinearLayout
+			android:id="@+id/personal_order_returned"
+    	    android:layout_weight="1.0"
+          	android:layout_width="0dip"
+          	android:layout_height="match_parent"
+          	android:orientation="vertical"
+          	android:background="@drawable/view_bg_clickable_selector"
+          	android:clickable="true"
+          	android:focusable="true"
+          	android:gravity="center_horizontal|center_vertical">
+          
+           <ImageView 
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:src="@drawable/personal_order_returned_icon"/>
+           
+           <TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/person_order_returned"
+			    style="@style/textStyle.Normal.black"/>
+        </LinearLayout>
+		
+</LinearLayout>

@@ -1,0 +1,119 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/product_item_layout"
+    android:layout_width="match_parent"
+    android:layout_height="276dip"
+    android:background="@color/bg_activity"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="268dip"
+        android:orientation="horizontal"
+        >
+
+        <!-- 产品列表ITEM -->
+        <LinearLayout
+            android:id="@+id/product_cell_layout1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:clickable="true"
+            android:focusable="true"
+            android:orientation="vertical"
+            android:background="@color/bg_view"
+            android:layout_marginLeft="@dimen/margin_space_half"
+            android:layout_marginRight="@dimen/margin_space_half">
+
+            <!--@drawable/view_bg_clickable_selector-->
+
+            <ImageView
+                android:id="@+id/product_pic_imgv1"
+                android:layout_width="match_parent"
+                android:layout_height="218.0dip"
+                android:src="@drawable/test_i"
+                android:scaleType="fitCenter" />
+
+            <TextView
+                android:id="@+id/product_name_txtv1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxHeight="30.0dip"
+                android:layout_marginTop="2.0dip"
+                android:ellipsize="end"
+                android:gravity="left"
+                android:paddingLeft="@dimen/margin_space"
+                android:paddingRight="@dimen/margin_space"
+                android:maxEms="6"
+                android:maxLines="1"
+                style="@style/textStyle.Normal.black" />
+
+            <TextView
+                android:id="@+id/product_price_txtv1"
+                android:layout_width="fill_parent"
+                android:layout_height="20.0dip"
+                android:ellipsize="end"
+                android:gravity="left"
+                android:paddingLeft="@dimen/margin_space"
+                android:paddingRight="@dimen/margin_space"
+                android:maxEms="6"
+                android:maxLines="1"
+                style="@style/textStyle.Normal.lightRed" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/product_cell_layout2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:focusable="true"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:background="@color/bg_view"
+            android:layout_marginRight="@dimen/margin_space_half">
+
+            <ImageView
+                android:id="@+id/product_pic_imgv2"
+                android:layout_width="match_parent"
+                android:layout_height="216.0dip"
+                android:paddingLeft="9.0dip"
+                android:paddingRight="9.0dip"
+                android:src="@drawable/test_i"
+                android:background="@color/white"
+                android:scaleType="fitCenter" />
+
+            <TextView
+                android:id="@+id/product_name_txtv2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:maxHeight="30.0dip"
+                android:paddingLeft="@dimen/margin_space"
+                android:paddingRight="@dimen/margin_space"
+                android:ellipsize="end"
+                android:gravity="left"
+                android:maxEms="6"
+                android:maxLines="1"
+                style="@style/textStyle.Normal.black" />
+
+            <TextView
+                android:id="@+id/product_price_txtv2"
+                android:layout_width="fill_parent"
+                android:layout_height="20.0dip"
+                android:paddingLeft="@dimen/margin_space"
+                android:paddingRight="@dimen/margin_space"
+                android:ellipsize="end"
+                android:gravity="left"
+                android:maxEms="6"
+                android:maxLines="1"
+                style="@style/textStyle.Normal.lightRed" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/product_bottom_line_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bg_activity"
+        android:orientation="horizontal"/>
+</LinearLayout>
